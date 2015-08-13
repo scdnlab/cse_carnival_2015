@@ -37,7 +37,7 @@ class AuthController extends \BaseController {
 
 			if (Auth::attempt($credentials))
 			{
-				return Redirect::intended('dashboard');
+				return Redirect::intended('admin/dashboard');
 			} else
 			{
 				return Redirect::route('login')
