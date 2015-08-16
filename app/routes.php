@@ -103,26 +103,23 @@ Route::get('/gameresult',function(){
 
 });
 
-Route::get('/programming_registration',function(){
-	return View::make('site.programming_registration')
-				->with('title','CSE Carnival 2015');
 
-});
 
-Route::get('/software_registration',function(){
-	return View::make('site.software_registration')
-				->with('title','CSE Carnival 2015');
+/**Registration Module */
 
-});
 
-Route::get('/project_show_registration',function(){
-	return View::make('site.project_show_registration')
-				->with('title','CSE Carnival 2015');
+//programming contest
+Route::get('registration/programmingContest',['as' => 'reg.pc', 'uses' => 'ContestController@pc']);
+Route::post('registration/programmingContest',['as' => 'reg.pc.store', 'uses' => 'ContestController@pc_store']);
 
-});
+//software contest
+Route::get('registration/softwareContest',['as' => 'reg.sc', 'uses' => 'ContestController@sc']);
+Route::post('registration/softwareContest',['as' => 'reg.sc.store', 'uses' => 'ContestController@sc_store']);
 
-Route::get('/game_registration',function(){
-	return View::make('site.game_registration')
-				->with('title','CSE Carnival 2015');
+//project showcasing
+Route::get('registration/projectShowcasing',['as' => 'reg.ps', 'uses' => 'ContestController@ps']);
+Route::post('registration/projectShowcasing',['as' => 'reg.ps.store', 'uses' => 'ContestController@ps_store']);
 
-});
+//gaming contest
+Route::get('registration/gamingCompetition',['as' => 'reg.gc', 'uses' => 'ContestController@gc']);
+Route::post('registration/gamingContest',['as' => 'reg.gc.store', 'uses' => 'ContestController@gc_store']);

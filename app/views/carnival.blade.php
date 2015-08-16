@@ -7,5 +7,6 @@
 <html class="no-js"> <!--<![endif]-->
 @include('site_includes.header')
 
+
 @yield('content')
 </html>

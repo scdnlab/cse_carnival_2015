@@ -1,6 +1,6 @@
 <head>
 
-    <title>Curnival - Home</title>
+    <title>CSE Carnival 2015</title>
 
     <!-- meta -->
     <meta charset="utf-8">

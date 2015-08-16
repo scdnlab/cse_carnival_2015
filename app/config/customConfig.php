@@ -2,7 +2,7 @@
 
 return [
 	'names' =>[
-		'siteName' => 'Delivery'
+		'siteName' => 'CSE Carnival 2015'
 	],
 	'roles' =>[
 		'Admin' => 'Admin'

@@ -48,39 +48,40 @@
             <div class="contact-form">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
-                        <form method="post" >
+                        @include('site_includes.alert')
+                        {{ Form::open(array('route' => 'reg.gc.store', 'files' => true)) }}
                             <div class="form-group">
-                                <input type="text" class="form-control empty iconified" name="ParticipantName" id="name" required="required" placeholder="&#xf183;   Name">
+                                {{ Form::text('member_name', null, array('class' => 'form-control empty iconified', 'id'  => 'member_name', 'required'  =>  'required', 'placeholder'   =>  '&#xf183;   Name')) }}
                             </div>
 
                             <div class="form-group">
-                                <input type="email" class="form-control empty iconified" name="ParticipantEmail" id="email" required="required" placeholder="&#xf0e0;   E-mail">
+                                {{ Form::email('member_email', null, array('class' => 'form-control empty iconified', 'id'  => 'member_email', 'required'  =>  'required', 'placeholder'   =>  '&#xf0e0;   E-mail')) }}
                             </div>
 
                             <div class="form-group">
-                                <input type="tel" class="form-control empty iconified" name="ParticipantMobile" id="mobile" required="required" placeholder="&#xf10b;   Mobile No.">
+                                {{ Form::text('member_mobile', null, array('class' => 'form-control empty iconified', 'id'  => 'member_mobile', 'required'  =>  'required', 'placeholder'   =>  '&#xf10b;   Mobile No.')) }}
                             </div>
 
                             <div class="checkbox">
                                 <h4>Which game do you want to play?</h4>
                                 <label>
-                                    <input type="checkbox" value="NFS">
+                                    {{ Form::checkbox('contest[]', 'nfs') }}
                                     Need For Speed (NFS)
                                 </label>
                                 <label>
-                                    <input type="checkbox" value="FIFA">
+                                    {{ Form::checkbox('contest[]', 'fifa') }}
                                     FIFA 15
                                 </label>
                             </div>
 
                             <div class="form-group">
                                 <label for="studentId">Upload Scan Copy of Your Student ID</label>
-                                <input type="file" class="form-control empty iconified" name="ParticipantId" id="studentId" required="required">
+                                {{ Form::file('member_photo', array('class' => 'form-control empty','required'  =>  'required', 'id' =>  'member_photo')) }}
                             </div>
 
                             <div class="form-group">
                                 <label for="photo">Upload Your Photo</label>
-                                <input type="file" class="form-control empty iconified" name="ParticipantPhoto" id="photo" required="required">
+                                {{ Form::file('member_id_photo', array('class' => 'form-control empty','required'  =>  'required', 'id' =>  'member_id_photo')) }}
                             </div>
 
                             <button type="submit" id="submit" name="submit" class="btn btn-black center-block">Submit <i class="fa fa-paper-plane"></i></button>

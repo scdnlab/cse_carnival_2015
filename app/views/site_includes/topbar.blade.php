@@ -4,7 +4,7 @@
             <div class="col-md-6 col-sm-6 hidden-xs">
                 <div class="top-info">
                     <ul>
-                        <li><i class="fa fa-map-marker"></i> 1221 North Washington Street</li>
+                        <li><i class="fa fa-map-marker"></i> IICT Building,SUST,Sylhet</li>
                         <li><i class="fa fa-phone"></i> +000 786 18 547</li>
                     </ul>
                 </div>

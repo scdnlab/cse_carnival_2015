@@ -65,16 +65,16 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Registration</span></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="{{url('/programming_registration')}}">Programming Contest</a>
+                                <a href="{{route('reg.pc')}}">Programming Contest</a>
                             </li>
                             <li>
-                                <a href="{{url('/software_registration')}}">Software Contest</a>
+                                <a href="{{route('reg.sc')}}">Software Contest</a>
                             </li>
                             <li>
-                                <a href="{{url('/project_show_registration')}}">Project Showcasing</a>
+                                <a href="{{route('reg.ps')}}">Project Showcasing</a>
                             </li>
                             <li>
-                                <a href="{{url('/game_registration')}}">Gaming Competition</a>
+                                <a href="{{route('reg.gc')}}">Gaming Competition</a>
                             </li>
                         </ul>  <!-- end of /.dropdown-menu -->
                     </li> <!-- end of /.dropdown -->
