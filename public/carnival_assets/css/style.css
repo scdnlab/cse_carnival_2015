@@ -89,6 +89,38 @@ input.empty, textarea.empty {
     color: #000;
 }
 
+.btn-file {
+    border: none;
+    background-color: #0F101A;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+}
+
+input[readonly] {
+    background-color: white !important;
+    cursor: text !important;
+}
 
 /*======================================   Global CSS  ===========================================*/
 
@@ -349,7 +381,7 @@ ul {
     color: #DADADA;
 }
 
-.navbar-default .navbar-nav>li>a:after {
+/*.navbar-default .navbar-nav>li>a:after {
     background-color: #B0C4DE;
     display: block;
     position: absolute;
@@ -373,7 +405,7 @@ ul {
 .navbar-default .navbar-nav>.active>a:hover:after,
 .navbar-default .navbar-nav>.registration:hover:after {
     width: 0%;
-}
+}*/
 
 .navbar-default .navbar-nav li ul.dropdown-menu {
     padding: 0px;
@@ -405,14 +437,14 @@ ul {
 }
 
 .navbar-default .navbar-nav>.registration>a {
-    background-color: rgba(51, 122, 183, 0.62);
+    background-color: #000000;
 }
 
-.navbar-default .navbar-nav>.registration>a:hover {
+/*.navbar-default .navbar-nav>.registration>a:hover {
     background-color: #337ab7;
     color: #eee;
 }
-
+*/
 #mainMenu {
     padding-right: 0px;
 }
@@ -542,6 +574,12 @@ ul {
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #fff;
     }
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-   navbar  dropdown  =-=-=-=-=-==-=-=-==-=-=-=-=-*/
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: #dadada;
 }
 
 
@@ -1280,8 +1318,9 @@ article p
                         Registration Page
 =====================================================================*/
 
-.contact-form h3 {
-    color: #25517B;
+.contact-form h3,
+.contact-form h4 {
+    color: #0F101A;
 }
 
 
