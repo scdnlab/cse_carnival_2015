@@ -93,6 +93,7 @@ input.empty, textarea.empty {
     border: none;
     background-color: #0F101A;
     color: #ffffff;
+    padding: 14px 28px;
     position: relative;
     overflow: hidden;
     width: 100%;
