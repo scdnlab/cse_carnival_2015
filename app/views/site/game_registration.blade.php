@@ -66,11 +66,11 @@
                                 <h4>Which game do you want to play?</h4>
                                 <label>
                                     {{ Form::checkbox('contest[]', 'nfs') }}
-                                    Need For Speed (NFS)
+                                    Need For Speed (Most Wanted)
                                 </label>
                                 <label>
                                     {{ Form::checkbox('contest[]', 'fifa') }}
-                                    FIFA 15
+                                    FIFA 14
                                 </label>
                             </div>
 

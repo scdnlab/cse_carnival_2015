@@ -21,8 +21,22 @@
                 <ul class="nav navbar-nav">
                     <!-- HOME item: begin -->
                     <li class="active"><a href="{{url('/')}}">Home</a></li>
-                    <li>
+                    <li class="dropdown">
                         <a href="{{url('/events')}}">Events</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="{{url('/programmingevent')}}">Programmimg Contest</a>
+                            </li>
+                            <li>
+                                <a href="{{url('/softwareevent')}}">Software Contest</a>
+                            </li>
+                            <li>
+                                <a href="{{url('/projectevent')}}">Project Showcasing</a>
+                            </li>
+                            <li>
+                                <a href="{{url('/gameevent')}}">Gaming Competition</a>
+                            </li>
+                        </ul>  <!-- end of /.dropdown-menu -->
                     </li>
                     <li>
                         <a href="{{url('/schedule')}}">Schedule</a>

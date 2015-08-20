@@ -55,6 +55,39 @@ Route::get('/schedule',function(){
 
 });
 
+/*=============================================
+		Event module
+===============================================*/
+
+Route::get('/programmingevent',function(){
+	return View::make('site.programming_contest')
+				->with('title','CSE Carnival 2015');
+
+});
+
+Route::get('/softwareevent',function(){
+	return View::make('site.software_contest')
+				->with('title','CSE Carnival 2015');
+
+});
+
+Route::get('/projectevent',function(){
+	return View::make('site.project_showcasing')
+				->with('title','CSE Carnival 2015');
+
+});
+
+Route::get('/gameevent',function(){
+	return View::make('site.gaming_contest')
+				->with('title','CSE Carnival 2015');
+
+});
+
+
+/*========================================
+			Team Module
+============================================*/
+
 Route::get('/programmingteam',function(){
 	return View::make('site.programming_team')
 				->with('title','CSE Carnival 2015');
@@ -123,3 +156,6 @@ Route::post('registration/projectShowcasing',['as' => 'reg.ps.store', 'uses' => 
 //gaming contest
 Route::get('registration/gamingCompetition',['as' => 'reg.gc', 'uses' => 'ContestController@gc']);
 Route::post('registration/gamingContest',['as' => 'reg.gc.store', 'uses' => 'ContestController@gc_store']);
+
+
+
