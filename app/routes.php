@@ -158,4 +158,9 @@ Route::get('registration/gamingCompetition',['as' => 'reg.gc', 'uses' => 'Contes
 Route::post('registration/gamingContest',['as' => 'reg.gc.store', 'uses' => 'ContestController@gc_store']);
 
 
+// conatact
+Route::get('/contact',function(){
+	return View::make('site.contact')
+				->with('title','CSE Carnival 2015');
 
+});

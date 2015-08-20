@@ -11,7 +11,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    CSE Curnival :)
+                    CSE Curnival \m/
                 </a>
             </div>
 
@@ -92,6 +92,9 @@
                             </li>
                         </ul>  <!-- end of /.dropdown-menu -->
                     </li> <!-- end of /.dropdown -->
+                    <li>
+                        <a href="{{url('/contact')}}">Contact</a>
+                    </li>
                 </ul>
 
             </div><!-- main navigation FINISH -->

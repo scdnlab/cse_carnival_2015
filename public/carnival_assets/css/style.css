@@ -438,9 +438,9 @@ ul {
     background-color: #000000;
 }
 
-.navbar-default .navbar-nav>.registration>a {
+/*.navbar-default .navbar-nav>.registration>a {
     background-color: #000000;
-}
+}*/
 
 /*.navbar-default .navbar-nav>.registration>a:hover {
     background-color: #337ab7;
@@ -1326,3 +1326,72 @@ article p
 }
 
 
+/*================================================================
+                        Event Page
+=====================================================================*/
+
+.event-section {
+    margin-bottom: 30px;
+}
+
+.event-section ol {
+    text-align: left;
+}
+
+.event-section ol li {
+    line-height: 30px;
+}
+
+
+/*===========================================================================
+                                Contact page
+=============================================================================*/
+
+.contact-address {
+    margin: 0px;
+}
+
+.contact-address .address-info {
+    border: 1px solid #0F101A;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.contact-address .address-info .address-info-icon {
+    background-color: #f9f9f9;
+    border-right: 1px solid #0F101A;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.contact-address .address-info:hover .address-info-icon {
+    background-color: #0F101A;
+    border-right: 1px solid #0F101A;
+}
+
+.contact-address .address-info .address-info-icon i {
+    position: relative;
+    padding: 62px 0px;
+    font-size: 30px;
+    color: #0F101A;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.contact-address .address-info:hover .address-info-icon i{
+    color: #fff;
+}
+
+.contact-address .address-info .address-info-desc {
+    padding: 15px 0px 0px 20px;
+}
+
+.contact-address .address-info .address-info-desc p {
+    font-size: 14px;
+}
