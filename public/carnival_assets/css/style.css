@@ -95,6 +95,7 @@ input.empty, textarea.empty {
     color: #ffffff;
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
 
 .btn-file:hover {
