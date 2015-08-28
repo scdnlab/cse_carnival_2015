@@ -91,7 +91,7 @@ input.empty, textarea.empty {
 
 .btn-file {
     border: none;
-    background-color: #0F101A;
+    background-color: #3078AE;
     color: #ffffff;
     padding: 14px 28px;
     position: relative;
@@ -100,7 +100,7 @@ input.empty, textarea.empty {
 }
 
 .btn-file:hover {
-    background-color: #000000;
+    background-color: #1E496D;
     color: #ffffff;
 }
 
@@ -126,11 +126,17 @@ input[readonly] {
 
 /*======================================   Global CSS  ===========================================*/
 
+html {
+    height: 100%;
+}
+
 body {
     background-color: #f6f6f6;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 1.82em;
+    position: relative;
+    min-height: 100%;
 }
 
 a:hover {
@@ -161,6 +167,9 @@ th {
 
 td {
     text-transform: capitalize;
+    min-width: 125px;
+    padding-left: 25px !important;
+    text-align: left;
 }
 
 ul {
@@ -346,7 +355,8 @@ ul {
 }
 
 .navbar-default {
-    background-color: #0F101A;
+    /*background-color: #0F101A;*/
+    background-color: #3078AE;
     border: none;
     border-bottom: 1px solid #C4C2FF;
     /*border-top: 2px solid #Af6F20;*/
@@ -617,12 +627,14 @@ section.header {
 
 .heading-wrapper
 {
-    background-color: rgba(0,0,0,0.75);
+    background-color: rgba(0,0,0,0.58);
     height: 100%;
 }
 
 .page-head .header-wrapper {
     background-color: rgba(0,0,0,0.45);
+    background-position: center;
+    background-size: cover;
     position: relative;
     padding: 65px 0px;
 }
@@ -1303,6 +1315,30 @@ article p
     margin-left: 18px;
 }
 
+/*=====================================================================
+                        Footer
+======================================================================*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #3078AE;
+    color: #fff;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+footer a {
+    color: #9FCDE6;
+}
+
+footer a:hover {
+    color: rgb(3, 18, 31);
+}
 
 /*=====================================================================
                         Event Page

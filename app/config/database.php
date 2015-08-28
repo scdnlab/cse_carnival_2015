@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'carnival',
-			'username'  => 'root',
-			'password'  => '',
+			'database'  => 'scdn_carnival',
+			'username'  => 'scdn_ratul',
+			'password'  => '!@#123!@#',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

@@ -10,8 +10,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">
-                    CSE Curnival \m/
+                <a class="navbar-brand" href="{{url('/')}}">
+                    IP Vision CSE Carnival 2015
                 </a>
             </div>
 

@@ -26,7 +26,7 @@
     <!-- header begin -->
     <!-- header begin -->
     <header class="page-head">
-        <div class="header-wrapper">
+        <div class="header-wrapper" style="background-image: url('{{asset('img/menu_banner.png')}}');">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -86,7 +86,7 @@
                                 {{ Form::file('member_id_photo', array('class' => 'form-control empty','required'  =>  'required', 'id' =>  'member_id_photo')) }}
                             </div>
 
-                            <button type="submit" id="submit" name="submit" class="btn btn-black center-block">Submit <i class="fa fa-paper-plane"></i></button>
+                            <button type="submit" id="submit" name="submit" class="btn btn-black center-block" style="margin-bottom: 70px;">Submit <i class="fa fa-paper-plane"></i></button>
                         </form> <!-- form end -->
                     </div>
                 </div>

@@ -25,7 +25,7 @@
     <!-- header begin -->
     <!-- header begin -->
     <header class="page-head">
-        <div class="header-wrapper">
+        <div class="header-wrapper" style="background-image: url('{{asset('carnival_assets/img/pc_banner.png')}}');">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">

@@ -4,8 +4,8 @@
             <div class="col-md-6 col-sm-6 hidden-xs">
                 <div class="top-info">
                     <ul>
-                        <li><i class="fa fa-map-marker"></i> IICT Building,SUST,Sylhet</li>
-                        <li><i class="fa fa-phone"></i> +000 786 18 547</li>
+                        <li><i class="fa fa-map-marker"></i> Dept of CSE,SUST,Sylhet</li>
+                        <li><i class="fa fa-phone"></i> +8801555555007 </li>
                     </ul>
                 </div>
             </div>
@@ -18,7 +18,7 @@
 
                     <ul>
                         <li>
-                            <a href="" class="facebook" data-rel="tooltip" data-placement="bottom" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/sustcsesociety?fref=ts" class="facebook" target="_blank" data-rel="tooltip" data-placement="bottom" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
                         </li>
 
                         <li>

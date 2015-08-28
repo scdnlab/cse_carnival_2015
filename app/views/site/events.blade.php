@@ -24,7 +24,7 @@
         <!-- end of /#navigation -->
 <!-- header begin -->
 <header class="page-head">
-    <div class="header-wrapper">
+    <div class="header-wrapper" style="background-image: url('{{asset('img/menu_banner.png')}}');">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

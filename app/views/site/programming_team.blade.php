@@ -26,7 +26,7 @@
     <!-- header begin -->
     <!-- header begin -->
     <header class="page-head">
-        <div class="header-wrapper">
+        <div class="header-wrapper" style="background-image: url('{{asset('img/menu_banner.png')}}');">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -44,7 +44,7 @@
     </header> <!-- /.page-head (header end) -->
 
 
-    <section class="main-content">
+    <!-- <section class="main-content">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -253,7 +253,18 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+    
+    
+    <section class="main-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Not selected yet</h2>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
