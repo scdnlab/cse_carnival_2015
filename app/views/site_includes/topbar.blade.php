@@ -29,7 +29,7 @@
                             <a href="" class="google" data-rel="tooltip" data-placement="bottom" data-original-title="Google +"><i class="fa fa-google-plus"></i></a>
                         </li>
 
-                        <li>
+                        <!-- <li>
                             <a href="" class="linkedin" data-rel="tooltip" data-placement="bottom" data-original-title="Linkedin"><i class="fa fa-linkedin"></i></a>
                         </li>
 
@@ -39,7 +39,7 @@
 
                         <li>
                             <a href="" class="pinterest" data-rel="tooltip" data-placement="bottom" data-original-title="Pinterest"><i class="fa fa-pinterest"></i></a>
-                        </li>
+                        </li> -->
                     </ul>
 
                 </div>

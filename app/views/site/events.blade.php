@@ -25,18 +25,18 @@
 <!-- header begin -->
 <header class="page-head">
     <div class="header-wrapper" style="background-image: url('{{asset('img/menu_banner.png')}}');">
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-md-12">
 
                     <ol class="breadcrumb">
                         <li><a href="index.html">Home</a></li>
                         <li class="active">Events</li>
-                    </ol> <!-- end of /.breadcrumb -->
+                    </ol> 
 
                 </div>
             </div>
-        </div> <!-- /.container -->
+        </div> --> <!-- /.container -->
     </div> <!-- /.header-wrapper -->
 </header> <!-- /.page-head (header end) -->
 
@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <h3>Inter University Programming Contest</h3>
+                    <h3>SUST Inter University Programming Contest (SIUPC)</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -80,7 +80,7 @@
                 </div>
 
                 <div class="col-md-6 col-md-pull-6">
-                    <h3>Inter University Software Contest</h3>
+                    <h3>SUST Inter University Software Contest (SIUSC)</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

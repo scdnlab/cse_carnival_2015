@@ -26,18 +26,18 @@
     <!-- header begin -->
     <header class="page-head">
         <div class="header-wrapper" style="background-image: url('{{asset('img/menu_banner.png')}}');">
-            <div class="container">
+            <!-- <div class="container">
                 <div class="row">
                     <div class="col-md-12">
 
                         <ol class="breadcrumb">
                             <li><a href="index.html">Home</a></li>
                             <li class="active">Contact</li>
-                        </ol> <!-- end of /.breadcrumb -->
+                        </ol> 
 
                     </div>
                 </div>
-            </div> <!-- /.container -->
+            </div> --> <!-- /.container -->
         </div> <!-- /.header-wrapper -->
     </header> <!-- /.page-head (header end) -->
 

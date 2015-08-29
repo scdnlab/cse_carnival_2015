@@ -356,7 +356,8 @@ ul {
 
 .navbar-default {
     /*background-color: #0F101A;*/
-    background-color: #3078AE;
+    /*background-color: #3078AE;*/
+    background-color: #00998E;
     border: none;
     border-bottom: 1px solid #C4C2FF;
     /*border-top: 2px solid #Af6F20;*/
@@ -636,7 +637,7 @@ section.header {
     background-position: center;
     background-size: cover;
     position: relative;
-    padding: 65px 0px;
+    padding: 100px 0px;
 }
 
 /*-------------------------   timer  -------------------------*/
