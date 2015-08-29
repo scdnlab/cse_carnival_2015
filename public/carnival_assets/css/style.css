@@ -1323,7 +1323,8 @@ article p
 footer {
     position: absolute;
     bottom: 0;
-    background-color: #3078AE;
+    /*background-color: #3078AE;*/
+    background-color: #00998E;
     color: #fff;
     padding: 20px 0px;
     width: 100%;
@@ -1338,7 +1339,7 @@ footer a {
 }
 
 footer a:hover {
-    color: rgb(3, 18, 31);
+    color: #7FFFD4;
 }
 
 /*=====================================================================
