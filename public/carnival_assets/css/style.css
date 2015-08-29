@@ -632,12 +632,25 @@ section.header {
     height: 100%;
 }
 
-.page-head .header-wrapper {
-    background-color: rgba(0,0,0,0.45);
+.page-head {
     background-position: center;
     background-size: cover;
-    position: relative;
+    background-repeat: no-repeat;
+}
+
+.page-head .header-wrapper {
+    background-color: rgba(0,0,0,0.45);
     padding: 100px 0px;
+}
+
+@media (max-width: 768px) {
+    .page-head {
+        background-position: inherit;
+    }
+
+    .page-head .header-wrapper {
+        padding: 65px 0px;
+    }
 }
 
 /*-------------------------   timer  -------------------------*/
