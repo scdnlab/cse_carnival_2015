@@ -639,7 +639,7 @@ section.header {
 }
 
 .page-head .header-wrapper {
-    background-color: rgba(0,0,0,0.45);
+    /* background-color: rgba(0,0,0,0.45); */
     padding: 100px 0px;
 }
 

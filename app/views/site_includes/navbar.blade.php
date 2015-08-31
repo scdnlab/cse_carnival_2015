@@ -10,9 +10,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{url('/')}}">
-                    IP Vision CSE Carnival 2015
-                </a>
+                <a href="{{url('/')}}" style="color:white;font-size:20px">
+                <img style="height:60px" src="{{asset('carnival_assets/img/logo.png')}}" /> IPvision SUST CSE Carnival 2015
+                </a> 
             </div>
 
             <!-- main navigation begin -->
