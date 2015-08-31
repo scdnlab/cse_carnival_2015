@@ -20,7 +20,7 @@
 
                 <ul class="nav navbar-nav">
                     <!-- HOME item: begin -->
-                    <li class="active"><a href="{{url('/')}}">Home</a></li>
+                    <li><a href="{{url('/')}}">Home</a></li>
                     <li class="dropdown">
                         <a href="{{url('/events')}}">Events</a>
                         <ul class="dropdown-menu">

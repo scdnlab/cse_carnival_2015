@@ -12,9 +12,9 @@
 
     {{ HTML::style('carnival_assets/css/bootstrap.min.css') }}
     {{ HTML::style('carnival_assets/css/font-awesome.min.css') }}
-    {{ HTML::style('carnival_assets/css/animate.css') }}
     {{ HTML::style('carnival_assets/css/owl.carousel.css') }}
     {{ HTML::style('carnival_assets/css/owl.theme.css') }}
+    {{ HTML::style('carnival_assets/css/jquery.fancybox.min.css') }}
     {{ HTML::style('carnival_assets/css/style.css') }}
     @yield('style')
 

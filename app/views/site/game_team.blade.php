@@ -43,7 +43,7 @@
     </header> <!-- /.page-head (header end) -->
 
 
-    <!-- <section class="main-content">
+    <section class="main-content">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -58,7 +58,7 @@
 
                         <tr>
                             <td>1</td>
-                            <td><img src="assets/img/speaker2.jpg" class="img-thumbnail img-responsive" style="width: 80px; height: 80px;"></td>
+                            <td><img src="{{asset('carnival_assets/img/speaker2.jpg')}}" class="img-thumbnail img-responsive" style="width: 80px; height: 80px;"></td>
                             <td>rezaul karim shawon</td>
                             <td>shahjalal university of science &amp; technology</td>
                             <td>Need For Speed</td>
@@ -66,7 +66,7 @@
 
                         <tr>
                             <td>2</td>
-                            <td><img src="assets/img/speaker2.jpg" class="img-thumbnail img-responsive" style="width: 80px; height: 80px;"></td>
+                            <td><img src="{{asset('carnival_assets/img/speaker2.jpg')}}" class="img-thumbnail img-responsive" style="width: 80px; height: 80px;"></td>
                             <td>rezaul karim shawon</td>
                             <td>shahjalal university of science &amp; technology</td>
                             <td>FIFA 15</td>
@@ -74,7 +74,7 @@
 
                         <tr>
                             <td>3</td>
-                            <td><img src="assets/img/speaker2.jpg" class="img-thumbnail img-responsive" style="width: 80px; height: 80px;"></td>
+                            <td><img src="{{asset('carnival_assets/img/speaker2.jpg')}}" class="img-thumbnail img-responsive" style="width: 80px; height: 80px;"></td>
                             <td>rezaul karim shawon</td>
                             <td>shahjalal university of science &amp; technology</td>
                             <td>Need For Speed</td>
@@ -82,7 +82,7 @@
 
                         <tr>
                             <td>4</td>
-                            <td><img src="assets/img/speaker2.jpg" class="img-thumbnail img-responsive" style="width: 80px; height: 80px;"></td>
+                            <td><img src="{{asset('carnival_assets/img/speaker2.jpg')}}" class="img-thumbnail img-responsive" style="width: 80px; height: 80px;"></td>
                             <td>rezaul karim shawon</td>
                             <td>shahjalal university of science &amp; technology</td>
                             <td>FIFA 15</td>
@@ -90,7 +90,7 @@
 
                         <tr>
                             <td>5</td>
-                            <td><img src="assets/img/speaker2.jpg" class="img-thumbnail img-responsive" style="width: 80px; height: 80px;"></td>
+                            <td><img src="{{asset('carnival_assets/img/speaker2.jpg')}}" class="img-thumbnail img-responsive" style="width: 80px; height: 80px;"></td>
                             <td>rezaul karim shawon</td>
                             <td>shahjalal university of science &amp; technology</td>
                             <td>Need For Speed</td>
@@ -99,9 +99,9 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     
-    <section class="main-content">
+    <!-- <section class="main-content">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -109,7 +109,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--  Necessary scripts  -->
 
     @include('site_includes.footer')

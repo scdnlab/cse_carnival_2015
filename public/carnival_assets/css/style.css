@@ -68,14 +68,14 @@ input.empty, textarea.empty {
 }
 
 .btn-black {
-    background-color: transparent;
-    border: 1px solid #000000;
-    color: #000000;
+    background-color: #00998E;
+    border: 1px solid #027D75;
+    color: #ffffff;
     margin-top: 10px;
 }
 
 .btn-black:hover {
-    background-color: #000000;
+    background-color: #027D75;
     color: #ffffff;
     border: 1px solid transparent;
 }
@@ -91,7 +91,7 @@ input.empty, textarea.empty {
 
 .btn-file {
     border: none;
-    background-color: #3078AE;
+    background-color: #00998E;
     color: #ffffff;
     padding: 14px 28px;
     position: relative;
@@ -100,7 +100,7 @@ input.empty, textarea.empty {
 }
 
 .btn-file:hover {
-    background-color: #1E496D;
+    background-color: #027D75;
     color: #ffffff;
 }
 
@@ -245,7 +245,7 @@ ul {
 }
 
 .top-info li:hover i {
-    background-color: #25517B;
+    background-color: #00998E;
     color: #fff;
     border: 1px solid transparent;
     -webkit-transition: all .3s ease-in-out;
@@ -302,7 +302,7 @@ ul {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    color: #337ab7;
+    color: #00998E;
     -webkit-transition: .5s;
     -moz-transition: .5s;
     -ms-transition: .5s;
@@ -377,20 +377,22 @@ ul {
 .navbar-default .navbar-nav>.active>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover {
     background-color: transparent;
-    color: #B0C4DE;
+    /*color: #B0C4DE;*/
+    color: #C3F6FD;
 }
 
 .navbar-default .navbar-nav>li>a {
     border-right: 1px solid #C4C2FF;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 15px;
     padding: 22px 15px;
     text-align: center;
 }
 
 .navbar-default .navbar-nav>li>a:focus, 
 .navbar-default .navbar-nav>li>a:hover {
-    background-color: rgba(16, 38, 60, 0.57);
+    /*background-color: rgba(16, 38, 60, 0.57);*/
+    background-color: #027D75;
     color: #DADADA;
 }
 
@@ -725,7 +727,7 @@ section.header {
 
 .service-container:hover > .service-icon a {
     color: #fff;
-    background-color: rgb(15, 16, 26);
+    background-color: #00998E;
     transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
@@ -750,8 +752,8 @@ section.header {
         -ms-border-radius: 100%;
          -o-border-radius: 100%;
             border-radius: 100%;
-    border: 2px solid rgb(15, 16, 26);
-    color: rgb(15, 16, 26);
+    border: 2px solid #00998E;
+    color: #00998E;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -779,7 +781,7 @@ section.header {
     width: 25%;
     margin-top: 0px;
     vertical-align: middle;
-    color: rgb(15, 16, 26);
+    color: #00998E;
     border: 1px solid;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1006,9 +1008,9 @@ section.header {
 {
     border-bottom-color: #ddd;
 }
-.nav-tabs-default > .nav-tabs > li:Hover > a, .nav-tabs-default > .nav-tabs > li.active > a 
+.nav-tabs-default > .nav-tabs > li:hover > a, .nav-tabs-default > .nav-tabs > li.active > a 
 { 
-    background: #0F101A; 
+    background: #00998E; 
     color: #fff; 
 }
 
@@ -1334,13 +1336,9 @@ article p
 ======================================================================*/
 
 footer {
-    position: absolute;
-    bottom: 0;
-    /*background-color: #3078AE;*/
     background-color: #00998E;
     color: #fff;
     padding: 20px 0px;
-    width: 100%;
 }
 
 footer p {
@@ -1362,7 +1360,7 @@ footer a:hover {
 .event-description {
     background-color: #f1f1f1;
     margin-bottom: 20px;
-    border-bottom: 2px solid #0F101A;
+    border-bottom: 2px solid rgba(99, 160, 156, 0.68);
     padding: 20px;
     text-align: justify;
 }
@@ -1395,6 +1393,18 @@ footer a:hover {
 
 
 /*===========================================================================
+                                Schedule Page
+=============================================================================*/
+
+#schedulePage h2 {
+    margin-bottom: 50px;
+}
+
+#schedulePage h3 {
+    margin-bottom: 20px;
+}
+
+/*===========================================================================
                                 Contact page
 =============================================================================*/
 
@@ -1403,14 +1413,14 @@ footer a:hover {
 }
 
 .contact-address .address-info {
-    border: 1px solid #0F101A;
+    border: 1px solid #00998E;
     margin-bottom: 20px;
     padding: 0px;
 }
 
 .contact-address .address-info .address-info-icon {
     background-color: #f9f9f9;
-    border-right: 1px solid #0F101A;
+    border-right: 1px solid #00998E;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -1419,15 +1429,15 @@ footer a:hover {
 }
 
 .contact-address .address-info:hover .address-info-icon {
-    background-color: #0F101A;
-    border-right: 1px solid #0F101A;
+    background-color: #00998E;
+    border-right: 1px solid #00998E;
 }
 
 .contact-address .address-info .address-info-icon i {
     position: relative;
     padding: 62px 0px;
     font-size: 30px;
-    color: #0F101A;
+    color: #00998E;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
