@@ -137,6 +137,22 @@ Route::get('/gameresult',function(){
 });
 
 
+/**Result Module */
+
+//programming contest
+Route::get('result/programmingContest',['as' => 'result.pc', 'uses' => 'ContestController@pc']);
+
+//software contest
+Route::get('result/softwareContest',['as' => 'result.sc', 'uses' => 'ContestController@sc']);
+
+//project showcasing
+Route::get('result/projectShowcasing',['as' => 'result.ps', 'uses' => 'ContestController@ps']);
+
+//gaming contest
+Route::get('result/gamingCompetition',['as' => 'result.gc', 'uses' => 'ContestController@gc']);
+
+
+
 
 /**Registration Module */
 

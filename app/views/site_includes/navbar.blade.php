@@ -10,8 +10,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="{{url('/')}}" style="color:white;font-size:20px">
-                <img style="height:60px" src="{{asset('carnival_assets/img/logo.png')}}" /> IPvision SUST CSE Carnival 2015
+                <a href="{{url('/')}}" style="color:white;font-size:25px">
+                <img style="height:60px" src="{{asset('carnival_assets/img/logo.png')}}" /> SUST CSE Carnival 2015
                 </a> 
             </div>
 

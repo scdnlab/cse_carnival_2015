@@ -50,7 +50,7 @@
                     <div class="col-md-12 text-center">
                         <h2>Participants</h2>
                         <p>
-                            Teams including 3 members and a coach from different universities from all over the country will be participating in RUET NCPC 2015. Each contestant must be a student enrolled in a degree program at the participating institution with at least a half-time load. A representative of the participating university, typically a faculty member, must be designated as the team coach. The team coach certifies the eligibility of contestants and serves as the official point-of-contact with the team, prior to and during contest activities. Participating universities will be issued an invitation letter by postal mail.
+                            Teams including 3 members and a coach from different universities from all over the country will be participating in <b>IPvision SUST CSE Carnival 2015</b>. Each contestant must be a student enrolled in a degree program at the participating institution with at least a half-time load. A representative of the participating university, typically a faculty member, must be designated as the team coach. The team coach certifies the eligibility of contestants and serves as the official point-of-contact with the team, prior to and during contest activities. Participating universities will be issued an invitation letter by postal mail.
                         </p>
                     </div>
                 </div>
@@ -84,19 +84,27 @@
                     <div class="col-md-12 text-center">
                         <h2>Important Dates</h2>
 
-                        <table class="text-center table table-bordered">
+                        <table class="text-center table table-bordered " >
                             <tr>
                                 <th>Date</th>
-                                <th>Programme Description</th>
+                                <th>Description</th>
                             </tr>
 
                             <tr>
-                                <td>30/9/2015</td>
-                                <td>Registration close</td> 
+                                <td>1 September 2015</td>
+                                <td>Registration Start</td> 
                             </tr>
                             <tr>
-                                <td>09/10/2015</td>
-                                <td>Programme Starts</td> 
+                                <td>15 September 2015</td>
+                                <td>Registration Close</td> 
+                            </tr>
+                            <tr>
+                                <td>17 September 2015</td>
+                                <td>Selected Team List will be Published</td> 
+                            </tr>
+                            <tr>
+                                <td>20 September 2015</td>
+                                <td>Payment Deadline</td> 
                             </tr>
 
                         </table>
