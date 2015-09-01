@@ -25,16 +25,16 @@
                         <a href="{{url('/events')}}">Events</a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="{{url('/programmingevent')}}">Programmimg Contest</a>
+                                <a href="{{route('event.pc')}}">Programmimg Contest</a>
                             </li>
                             <li>
-                                <a href="{{url('/softwareevent')}}">Software Contest</a>
+                                <a href="{{route('event.sc')}}">Software Contest</a>
                             </li>
                             <li>
-                                <a href="{{url('/projectevent')}}">Project Showcasing</a>
+                                <a href="{{route('event.ps')}}">Project Showcasing</a>
                             </li>
                             <li>
-                                <a href="{{url('/gameevent')}}">Gaming Competition</a>
+                                <a href="{{route('event.gc')}}">Gaming Competition</a>
                             </li>
                         </ul>  <!-- end of /.dropdown-menu -->
                     </li>
@@ -45,16 +45,16 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Teams</span></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="{{url('/programmingteam')}}">Programmimg Contest Teams</a>
+                                <a href="{{route('team.pc')}}">Programmimg Contest Teams</a>
                             </li>
                             <li>
-                                <a href="{{url('/softwareteam')}}">Software Contest Teams</a>
+                                <a href="{{route('team.sc')}}">Software Contest Teams</a>
                             </li>
                             <li>
-                                <a href="{{url('/projectteam')}}">Project Showcasing Teams</a>
+                                <a href="{{route('team.ps')}}">Project Showcasing Teams</a>
                             </li>
                             <li>
-                                <a href="{{url('/gameteam')}}">Gaming Competition Participant</a>
+                                <a href="{{route('team.gc')}}">Gaming Competition Participant</a>
                             </li>
                         </ul>  <!-- end of /.dropdown-menu -->
                     </li>
@@ -62,16 +62,16 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span>Results</span></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="{{url('/programmingresult')}}">Programmimg Contest Result</a>
+                                <a href="{{route('result.pc')}}">Programmimg Contest Result</a>
                             </li>
                             <li>
-                                <a href="{{url('/softwareresult')}}">Software Contest Result</a>
+                                <a href="{{route('result.sc')}}">Software Contest Result</a>
                             </li>
                             <li>
-                                <a href="{{url('/projectresult')}}">Project Showcasing Result</a>
+                                <a href="{{route('result.ps')}}">Project Showcasing Result</a>
                             </li>
                             <li>
-                                <a href="{{url('/gameresult')}}">Gaming Competition Result</a>
+                                <a href="{{route('result.gc')}}">Gaming Competition Result</a>
                             </li>
                         </ul>  <!-- end of /.dropdown-menu -->
                     </li>

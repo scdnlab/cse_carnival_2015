@@ -55,102 +55,56 @@ Route::get('/schedule',function(){
 
 });
 
-/*=============================================
-		Event module
-===============================================*/
-
-Route::get('/programmingevent',function(){
-	return View::make('site.programming_contest')
-				->with('title','CSE Carnival 2015');
-
-});
-
-Route::get('/softwareevent',function(){
-	return View::make('site.software_contest')
-				->with('title','CSE Carnival 2015');
-
-});
-
-Route::get('/projectevent',function(){
-	return View::make('site.project_showcasing')
-				->with('title','CSE Carnival 2015');
-
-});
-
-Route::get('/gameevent',function(){
-	return View::make('site.gaming_contest')
-				->with('title','CSE Carnival 2015');
-
-});
 
 
-/*========================================
-			Team Module
-============================================*/
 
-Route::get('/programmingteam',function(){
-	return View::make('site.programming_team')
-				->with('title','CSE Carnival 2015');
 
-});
+/**Event Module */
 
-Route::get('/softwareteam',function(){
-	return View::make('site.software_team')
-				->with('title','CSE Carnival 2015');
+//programming contest
+Route::get('event/programmingContest',['as' => 'event.pc', 'uses' => 'EventController@pc']);
 
-});
+//software contest
+Route::get('event/softwareContest',['as' => 'event.sc', 'uses' => 'EventController@sc']);
 
-Route::get('/projectteam',function(){
-	return View::make('site.project_team')
-				->with('title','CSE Carnival 2015');
+//project showcasing
+Route::get('event/projectShowcasing',['as' => 'event.ps', 'uses' => 'EventController@ps']);
 
-});
+//gaming contest
+Route::get('event/gamingCompetition',['as' => 'event.gc', 'uses' => 'EventController@gc']);
 
-Route::get('/gameteam',function(){
-	return View::make('site.game_team')
-				->with('title','CSE Carnival 2015');
 
-});
 
-Route::get('/programmingresult',function(){
-	return View::make('site.programming_result')
-				->with('title','CSE Carnival 2015');
+/**Team Module */
 
-});
+//programming contest
+Route::get('team/programmingContest',['as' => 'team.pc', 'uses' => 'TeamController@pc']);
 
-Route::get('/softwareresult',function(){
-	return View::make('site.software_result')
-				->with('title','CSE Carnival 2015');
+//software contest
+Route::get('team/softwareContest',['as' => 'team.sc', 'uses' => 'TeamController@sc']);
 
-});
+//project showcasing
+Route::get('team/projectShowcasing',['as' => 'team.ps', 'uses' => 'TeamController@ps']);
 
-Route::get('/projectresult',function(){
-	return View::make('site.project_show_result')
-				->with('title','CSE Carnival 2015');
+//gaming contest
+Route::get('team/gamingCompetition',['as' => 'team.gc', 'uses' => 'TeamController@gc']);
 
-});
 
-Route::get('/gameresult',function(){
-	return View::make('site.game_result')
-				->with('title','CSE Carnival 2015');
-
-});
 
 
 /**Result Module */
 
 //programming contest
-Route::get('result/programmingContest',['as' => 'result.pc', 'uses' => 'ContestController@pc']);
+Route::get('result/programmingContest',['as' => 'result.pc', 'uses' => 'ResultController@pc']);
 
 //software contest
-Route::get('result/softwareContest',['as' => 'result.sc', 'uses' => 'ContestController@sc']);
+Route::get('result/softwareContest',['as' => 'result.sc', 'uses' => 'ResultController@sc']);
 
 //project showcasing
-Route::get('result/projectShowcasing',['as' => 'result.ps', 'uses' => 'ContestController@ps']);
+Route::get('result/projectShowcasing',['as' => 'result.ps', 'uses' => 'ResultController@ps']);
 
 //gaming contest
-Route::get('result/gamingCompetition',['as' => 'result.gc', 'uses' => 'ContestController@gc']);
-
+Route::get('result/gamingCompetition',['as' => 'result.gc', 'uses' => 'ResultController@gc']);
 
 
 

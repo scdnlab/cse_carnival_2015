@@ -66,38 +66,7 @@
     <div class="main-content">
         <div class="container">
 
-            <!-- google map iframe -->
-            <section class="g-map">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="google-map">
-                            <div id="map-canvas"></div>
-                        </div>
-                    </div>
-                </div>
-            </section> <!-- /.g-map (google-map end) -->
-
-            <script>
-                function initialize() {
-                    var mapCanvas = document.getElementById('map-canvas');
-                    var mapOptions = {
-                        center: new google.maps.LatLng(24.921212, 91.833073),
-                        zoom: 16,
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
-                    }
-                    var map = new google.maps.Map(mapCanvas, mapOptions)
-
-                    var marker = new google.maps.Marker({
-                        position: new google.maps.LatLng(24.921212, 91.833073),
-                        title:"Shahjalal University of Science & Technology"
-                    });
-
-                    // To add the marker to the map, call setMap();
-                    marker.setMap(map);
-                }
-
-                google.maps.event.addDomListener(window, 'load', initialize);
-            </script>
+            
 
 
             <h2>Co-ordinator</h2>
@@ -174,6 +143,40 @@
 
                 </div>
             </section> <!-- /.contact-address -->
+
+            <!-- google map iframe -->
+            <section class="g-map">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="google-map">
+                            <div id="map-canvas"></div>
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- /.g-map (google-map end) -->
+
+            <script>
+                function initialize() {
+                    var mapCanvas = document.getElementById('map-canvas');
+                    var mapOptions = {
+                        center: new google.maps.LatLng(24.9180694, 91.8310167),
+                        zoom: 17,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    }
+                    var map = new google.maps.Map(mapCanvas, mapOptions)
+
+                    var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(24.9180694, 91.8310167),
+                        title:"Shahjalal University of Science & Technology"
+                    });
+
+                    // To add the marker to the map, call setMap();
+                    marker.setMap(map);
+                }
+
+                google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
+
         </div>
     </div>
             
