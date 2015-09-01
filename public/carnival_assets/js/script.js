@@ -98,7 +98,7 @@ $(document).ready( function() {
                  console.log(input.context.id);
                  var str1 = "#";
                  getIdofSelected = str1.concat(input.context.id);
-                 $(getIdofSelected).text("File Selected Done");
+                 $(getIdofSelected).text("File Selected");
             }
         }
         
