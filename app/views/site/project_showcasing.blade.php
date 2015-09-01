@@ -50,6 +50,31 @@
                     <h2>Nothing is published yet</h2>
                 </div>
             </div>
+
+            <section class="event-section">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2>Important Dates</h2>
+
+                        <table class="text-center table table-bordered">
+                            <tr>
+                                <th>Date</th>
+                                <th>Programme Description</th>
+                            </tr>
+
+                            <tr>
+                                <td>30/9/2015</td>
+                                <td>Registration close</td> 
+                            </tr>
+                            <tr>
+                                <td>09/10/2015</td>
+                                <td>Programme Starts</td> 
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </section>
         </div>
     </section>
 
