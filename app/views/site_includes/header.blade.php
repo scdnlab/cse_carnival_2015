@@ -1,11 +1,13 @@
 <head>
 
-    <title>CSE Carnival 2015</title>
+    <title>{{$title}}</title>
 
     <!-- meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name ="description" content="Organized By CSE Society,Department of CSE,SUST,Sylhet" />
+
 
 
     <!-- stylesheets -->

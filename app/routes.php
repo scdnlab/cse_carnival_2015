@@ -45,13 +45,13 @@ Route::get('/',function(){
 
 Route::get('/events',function(){
 	return View::make('site.events')
-				->with('title','CSE Carnival 2015');
+				->with('title','IPvision SUST CSE Carnival 2015');
 
 });
 
 Route::get('/schedule',function(){
 	return View::make('site.schedule')
-				->with('title','CSE Carnival 2015');
+				->with('title','IPvision SUST CSE Carnival 2015 ::. Schedule');
 
 });
 
@@ -131,6 +131,6 @@ Route::post('registration/gamingContest',['as' => 'reg.gc.store', 'uses' => 'Con
 // conatact
 Route::get('/contact',function(){
 	return View::make('site.contact')
-				->with('title','CSE Carnival 2015');
+				->with('title','IPvision SUST CSE Carnival 2015 ::. Contact');
 
 });

@@ -3,7 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <p>&copy; SUST 5<sup>th</sup> National CSE CARNIVAL 2015</p>
+                <!-- <p>&copy; SUST 5<sup>th</sup> National CSE CARNIVAL 2015</p> -->
+                <p>&copy; IPvision SUST CSE Carnival 2015</p>
             </div>
             <div class="col-md-4">
                 <p>

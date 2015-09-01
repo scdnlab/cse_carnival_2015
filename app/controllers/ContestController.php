@@ -6,7 +6,7 @@ class ContestController extends \BaseController {
 	//programming contest
 	public function pc(){
 		return View::make('site.programming_registration')
-				->with('title','CSE Carnival 2015');
+				->with('title','IPvision SUST CSE Carnival 2015 ::. Registration ::. SUST Inter University Programming Contest');
 	}
 
 	public function pc_store(){
@@ -138,7 +138,7 @@ class ContestController extends \BaseController {
 	//software contest
 	public function sc(){
 		return View::make('site.software_registration')
-				->with('title','CSE Carnival 2015');
+				->with('title','IPvision SUST CSE Carnival 2015 ::. Registration ::. SUST Inter University Software Contest');
 	}
 
 	public function sc_store(){
@@ -271,7 +271,7 @@ class ContestController extends \BaseController {
 	//project showcase 
 	public function ps(){
 		return View::make('site.project_show_registration')
-				->with('title','CSE Carnival 2015');
+				->with('title','IPvision SUST CSE Carnival 2015 ::. Registration ::. Project Showcasing');
 	}
 
 	public function ps_store(){
@@ -404,7 +404,7 @@ class ContestController extends \BaseController {
 	//gaming 
 	public function gc(){
 		return View::make('site.game_registration')
-				->with('title','CSE Carnival 2015');
+				->with('title','IPvision SUST CSE Carnival 2015 ::. Registration ::. Gaming Contest');
 	}
 
 	public function gc_store(){

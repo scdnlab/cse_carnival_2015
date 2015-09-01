@@ -75,13 +75,13 @@
                             </div>
 
                             <div class="form-group">
-                                <button class="file-input btn btn-file">
+                                <button class="file-input btn btn-file" id="member_photo">
                                     Upload Photo
                                 {{ Form::file('member_photo', array('class' => 'form-control empty','required'  =>  'required', 'id' =>  'member_photo')) }}
                             </div>
 
                             <div class="form-group">
-                                <button class="file-input btn btn-file">
+                                <button class="file-input btn btn-file" id="member_id_photo">
                                 Upload Scan Copy of Student ID
                                 {{ Form::file('member_id_photo', array('class' => 'form-control empty','required'  =>  'required', 'id' =>  'member_id_photo')) }}
                             </div>

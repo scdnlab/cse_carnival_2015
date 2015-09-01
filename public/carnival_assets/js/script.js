@@ -93,7 +93,13 @@ $(document).ready( function() {
         if( input.length ) {
             input.val(log);
         } else {
-            if( log ) alert(log);
+            if( log ) 
+            {
+                 console.log(input.context.id);
+                 var str1 = "#";
+                 getIdofSelected = str1.concat(input.context.id);
+                 $(getIdofSelected).text("File Selected Done");
+            }
         }
         
     });
