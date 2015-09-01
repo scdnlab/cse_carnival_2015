@@ -10,9 +10,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="{{url('/')}}" style="color:white;font-size:25px">
-                <img style="height:45px" src="{{asset('carnival_assets/img/logo.png')}}" /> SUST CSE Carnival 2015
-                </a> 
+                <a class="navbar-brand" href="http://csecarnival.com" style="color:white;font-size:25px">
+                <span><img style="height:45px" src="http://csecarnival.com/carnival_assets/img/logo.png"></span> SUST CSE Carnival 2015
+                </a>
             </div>
 
             <!-- main navigation begin -->
