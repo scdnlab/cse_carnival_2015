@@ -1408,6 +1408,17 @@ footer a:hover {
                                 Contact page
 =============================================================================*/
 
+/*---------------------------  11.1 google map --------------------------*/
+.g-map {
+    margin-bottom: 50px;
+}
+
+#map-canvas 
+{
+    width: 100%;
+    height: 400px;
+}
+
 .contact-address {
     margin: 0px;
 }

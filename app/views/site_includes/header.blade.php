@@ -18,4 +18,8 @@
     {{ HTML::style('carnival_assets/css/style.css') }}
     @yield('style')
 
+    <!-- scripts -->
+    {{ HTML::script('https://maps.googleapis.com/maps/api/js') }}
+
+    @yield('script')
 </head>
