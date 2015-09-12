@@ -23,7 +23,7 @@
 @include('site_includes.navbar')
         <!-- end of /#navigation -->
 <!-- header begin -->
-<header class="page-head" style="background-image: url('{{asset('carnival_assets/img/event_banner.png')}}');">
+<header class="page-head" style="background-image: url('{{asset('carnival_assets/img/events_banner.jpg')}}');">
     <div class="header-wrapper" >
         <!-- <div class="container">
             <div class="row">
@@ -54,21 +54,15 @@
         <div class="event-description">
             <div class="row">
                 <div class="col-md-6">
-                    <img class="img-responsive center-block" src="assets/img/bla.jpg" alt="Event Featured Image">
+                    <img style="height:100px" class="img-responsive center-block" src="{{asset('carnival_assets/img/pc_banner.png')}}" alt="Event Featured Image">
                 </div>
 
                 <div class="col-md-6">
                     <h3>SUST Inter University Programming Contest (SIUPC)</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
 
-                    <a href="programming_registration.html" class="btn btn-black">Registration Now</a>
+                    <a href="{{route('event.pc')}}" class="btn btn-black">Event Details</a>
+                    <a href="{{route('reg.pc')}}" class="btn btn-black">Register Now</a>
+
                 </div>
             </div>
         </div>
@@ -76,22 +70,14 @@
         <div class="event-description">
             <div class="row">
                 <div class="col-md-6 col-md-push-6">
-                    <img class="img-responsive center-block" src="assets/img/bla.jpg" alt="Event Featured Image">
+                    <img style="height:100px" class="img-responsive center-block" src="{{asset('carnival_assets/img/sc_banner.png')}}" alt="Event Featured Image">
                 </div>
 
                 <div class="col-md-6 col-md-pull-6">
                     <h3>SUST Inter University Software Contest (SIUSC)</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
 
-                    <a href="software_registration.html" class="btn btn-black">Registration Now</a>
-                </div>
+                    <a href="{{route('event.sc')}}" class="btn btn-black">Event Details</a>
+                    <a href="{{route('reg.sc')}}" class="btn btn-black">Register Now</a>                </div>
             </div>
         </div>
 
@@ -99,21 +85,13 @@
         <div class="event-description">
             <div class="row">
                 <div class="col-md-6">
-                    <img class="img-responsive center-block" src="assets/img/bla.jpg" alt="Event Featured Image">
+                    <img style="height:100px" class="img-responsive center-block" src="{{asset('carnival_assets/img/ps_banner.png')}}" alt="Event Featured Image">
                 </div>
 
                 <div class="col-md-6">
-                    <h3>Project Showcasing Event</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-
-                    <a href="product_showcase_registration.html" class="btn btn-black">Registration Now</a>
+                    <h3>Project Showcasing</h3>
+                    <a href="{{route('event.ps')}}" class="btn btn-black">Event Details</a>
+                    <a href="{{route('reg.ps')}}" class="btn btn-black">Register Now</a>
                 </div>
             </div>
         </div>
@@ -122,21 +100,14 @@
         <div class="event-description">
             <div class="row">
                 <div class="col-md-6 col-md-push-6">
-                    <img class="img-responsive center-block" src="assets/img/bla.jpg" alt="Event Featured Image">
+                    <img style="height:100px" class="img-responsive center-block" src="{{asset('carnival_assets/img/gc_banner.png')}}" alt="Event Featured Image">
                 </div>
 
                 <div class="col-md-6 col-md-pull-6">
                     <h3>Gaming Competition</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
 
-                    <a href="game_registration.html" class="btn btn-black">Registration Now</a>
+                    <a href="{{route('event.gc')}}" class="btn btn-black">Event Details</a>
+                    <a href="{{route('reg.gc')}}" class="btn btn-black">Register Now</a>
                 </div>
             </div>
         </div>

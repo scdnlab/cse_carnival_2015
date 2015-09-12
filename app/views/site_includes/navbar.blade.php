@@ -10,8 +10,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="http://csecarnival.com" style="color:white;font-size:25px">
-                <span><img style="height:45px" src="http://csecarnival.com/carnival_assets/img/logo.png"></span> SUST CSE Carnival 2015
+                <a class="navbar-brand" href="http://csecarnival.com" style="color:white;font-size:20px">
+                <span><img style="height:45px" src="http://csecarnival.com/carnival_assets/img/logo.png"></span> SUST 5th CSE Carnival 2015
                 </a>
             </div>
 

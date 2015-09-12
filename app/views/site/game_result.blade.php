@@ -47,7 +47,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <table class="text-center table table-bordered">
+                    <h2 align="center">Will be published</h2>
+                    <!-- <table class="text-center table table-bordered">
                         <tr>
                             <th>Participate Number</th>
                             <th>Participant Photo</th>
@@ -95,7 +96,7 @@
                             <td>shahjalal university of science &amp; technology</td>
                             <td>Need For Speed</td>
                         </tr>
-                    </table>
+                    </table> -->
                 </div>
             </div>
         </div>

@@ -45,30 +45,65 @@
 
     <section class="main-content">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2>Nothing is published yet</h2>
+            <section class="event-section">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2>Participants</h2>
+                        <ol>
+                            <li>
+                                Maximum <b>3</b> Members in a Group
+                            </li>
+                            <li>
+                                Open only for UNIVERSITY Students
+                            </li>
+                            <li>
+                                Only registered projects will be allowed
+                            </li>
+                            <li>
+                                Participants should bring their University ID Card Or Recommendation Letter when registering.
+
+                            </li>
+                        </ol>
+                    </div>
                 </div>
-            </div>
+            </section>
+
+            <section class="event-section">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2>Registration Fees</h2>
+                            <p>Registration Fee <b>1200.00 BDT</b> per team(3 members).</p>
+                    </div>
+                </div>
+            </section>
+
 
             <section class="event-section">
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <h2>Important Dates</h2>
 
-                        <table class="text-center table table-bordered">
+                        <table class="text-center table table-bordered " >
                             <tr>
                                 <th>Date</th>
-                                <th>Programme Description</th>
+                                <th>Description</th>
                             </tr>
 
                             <tr>
-                                <td>30/9/2015</td>
-                                <td>Registration close</td> 
+                                <td>1 September 2015</td>
+                                <td>Registration Start</td> 
                             </tr>
                             <tr>
-                                <td>09/10/2015</td>
-                                <td>Programme Starts</td> 
+                                <td>15 September 2015</td>
+                                <td>Registration Close</td> 
+                            </tr>
+                            <tr>
+                                <td>17 September 2015</td>
+                                <td>Selected Team List will be Published</td> 
+                            </tr>
+                            <tr>
+                                <td>20 September 2015</td>
+                                <td>Payment Deadline</td> 
                             </tr>
 
                         </table>

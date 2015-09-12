@@ -98,7 +98,10 @@ $(document).ready( function() {
                  console.log(input.context.id);
                  var str1 = "#";
                  getIdofSelected = str1.concat(input.context.id);
+                 getIdofSelected = getIdofSelected.concat('_btn');
+                 console.log(getIdofSelected);
                  $(getIdofSelected).text("File Selected");
+                 alert("File Selected Successfully");
             }
         }
         

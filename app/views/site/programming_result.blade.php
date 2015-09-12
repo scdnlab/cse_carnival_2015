@@ -48,7 +48,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <table class="text-center table table-bordered">
+                    <h2 align="center">Will be published</h2>
+                    <!-- <table class="text-center table table-bordered">
                         <tr>
                             <th>Team Number</th>
                             <th>Team Name</th>
@@ -90,7 +91,7 @@
                             <td>shahjalal university of science &amp; technology</td>
                             <td><a href="#programmingTeam5" class="btn btn-default fancybox">View Details</a></td>
                         </tr>
-                    </table>
+                    </table> -->
                 </div>
             </div>
         </div>

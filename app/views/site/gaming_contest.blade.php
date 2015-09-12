@@ -53,33 +53,87 @@
                             <li>
                                 <h3>Registration</h3>
                                 <p>
-                                    Only individual registration is allowed.There are no teams.
-                                    <br>
-                                    At first online registration must be done.
+                                    Only individual registration. Team is not allowed.
                                 </p>
                             </li>
                             <li>
                                 <h3>Registration Fees</h3>
-                                <p>Registration fee Tk. 400.00 per participant.</p>
+                                <p>Registration Fee 400/= BDT per participant per Game</p>
                             </li>
                             <li>
-                                <h3>Rules for the event</h3>
-                                <p>
-                                    The tournament will be on FIFA 15 which will be played on PC.
-                                    <br>
-                                    Competition method is (Game Pad Player vs Game Pad Player) or (GamePad Player vs Keyboard Player)
-                                    <br>
-                                    Each Game will be played on HOME-AWAY basis.
-                                    <br>
-                                    Players are requested to bring their own accessories like Game Pad, Headphone and Keyboard (recommended).
-                                    <br>
-                                    Defending style is Tactical.
-                                    <br>
-                                    In all cases, decisions taken by the Organizing Committee will be final.
-                                    <br>
-                                    Detail rules can be downloaded from     <a href="#">FIFA 14 Rules</a>
-                                </p>
+                                <h3>Rules for the Fifa 14</h3>
+                                    <ol>
+                                        <li>All the participants have to read and understand the rules.</li>
+                                        <li>Play Type: One VS ONE.</li>
+                                        <li>Players can bring their own gaming gadgets. No gadgets will be provided by the organizer.</li>
+                                        <li>All matches will be online, unless the game is a keyboard vs gamepad player game.</li>
+                                        <li>The matches will be played by knocked out system.</li>
+                                        <li>Each player will get 5 minutes to set up personal gadgets with referee’s notification.</li>
+                                        <li>If the player is found to be delaying the match for non-technical reasons, the referee may declare the match forfeit.</li>
+                                        <li>The team’s and player’s ability can’t be modified. If anyone modifies his team or players ability he/she will be disqualified.</li>
+                                        <li>If any player closes the victory or defeat screen without the replay being saved by a referee that may result in a default loss.</li>
+                                        <li>Player changes and strategy changes can only be made before starting a match and whenever the ball is out for a throw-in or goal kick and in half-time. The changes should be made before throwing-in or goal kicking. The changes can also be made on player’s mutual understanding.</li>
+                                        <li>If a match ends as a draw there will be no extra time. And Penalty shootout will decide the result.</li>
+                                        <li>Matches will be played in a neutral venue. No player will get the home advantage in a match.</li>
+                                        <li>Organizing committee holds the right to change the rules at any time and their decision is final.</li>
+                                        <li>Game Settings: 
+                                            <ol>
+                                                <li>Team: International or club.</li>
+                                                <li>Match length: (5+5)=10 minutes  </li>
+                                                <li>Final Match Length: (6+6)=12 minutes</li>
+                                                <li>Difficulty Level: Legendary </li>
+                                                <li>Handball: Off </li>
+                                                <li>Defending: Tactical defending</li>
+                                            </ol>
+                                        </li>
+                                        <li>If the game disconnection is deemed to be unintentional by the referee, the game will be restarted. If any or both player does not agree to a match restart, that or both player will be disqualified.</li>
+                                        <li>Unfair Play: 1. Use of any cheat program, 2. Intentional disconnection, 3. Use of any settings exceeding standard and permitted settings and 4. If the match is disrupted due to unnecessary.</li>
+                                        <li>Upon discovery of any player committing any violation regarded as unfair play, that player will be disqualified from the tournament. </li>
+                                        <li>During the course of any match, the operations staff and/or referee may determine other actions to be unfair play at any time.</li>
+                                        <li>Chatting, the player may be given a warning or lose by defaults at the referee’s sole discretions.</li>
+                                        <li>A participant has to report at the venue with respect to the schedule time table. No participant shall be allowed to participate if he/she does not report to the organizing authority within their reporting time.</li>
+                                        <li>A participant shall be reported about exact time of their match when they report.</li>
+                                        <li>If a participant is found missing before the round, then the opponent shall be awarded a walkover to the next round.</li>
+                                        <li>Gamer must switched off their cell phones, smart watches, tab or any other electronics devices.</li>
+                                        <li>Food and drinks are not allowed except for chewing gums or breathe fresheners. </li>
+                                        
+                                    </ol>
+                                    <p><b>AGAIN A REFEREE”S DECISION HAS TO BE ACCEPTED BY THE PARTICIPANTS AND NO ARGUMENT WILL BE ACCEPTABLE.</b></p>
                             </li>
+                            <li>
+                                <h3>Rules for the NFS (Most Wanted)</h3>
+                                <ol>
+                                    <li>All the participants have to read and understand the rules.</li>
+                                    <li>Play Type: One VS ONE.</li>
+                                    <li>Players can bring their own gaming gadgets. No gadgets will be provided by the organizer.</li>
+                                    <li>The matches will be played by knocked out system.</li>
+                                    <li>Each player will get 5 minutes to set up personal gadgets with referee’s notification.</li>
+                                    <li>If the player is found to be delaying the match for non-technical reasons, the referee may declare the match forfeit.</li>
+                                    <li>Game Type: Circuit</li>
+                                    <li>Host and Client will be decided by coin toss.</li>
+                                    <li>At the end of each match, players must maintain the final screens and receive confirmation from a referee.</li>
+                                    <li>Winning a race: The winner of a race is the first player to complete 5 laps of the circuit course and cross the finish line.</li>
+                                    <li>The use of Lotus Elise, Porches Carrera GT and BMW M3 are not allowed.</li>
+                                    <li>Only Visual Upgrade is allowed.</li>
+                                    <li>Part, Performance (Pro, Super Pro and Ultimate) allowed, Junkman not allowed.</li>
+                                    <li>Personal save files are not allowed.</li>
+                                    <li>Cars may be tuned before racing each course.</li>
+                                    <li>Game Setting: Courses- 1.Petursburg, Campusway, Heritage & Omega, Ironhorse & Hillcrest Boundary.</li>
+                                    <li>Each courses may be modified by the organizer. Players will be informed of any such changes before the game.</li>
+                                    <li>Race Mode: Circuit, Laps: 5, N20: Yes, Collision Detection: Off, Performance Matching: Off.</li>
+                                    <li>If the game disconnection is deemed to be unintentional by the referee, the game will be restarted. If any or both player does not agree to a match restart, that or both player will be disqualified.</li>
+                                    <li>Unfair Play: 1. Use of any cheat program, 2. Intentional disconnection, 3. Use of any settings exceeding standard and permitted settings and 4. If the match is disrupted due to unnecessary.</li>
+                                    <li>Upon discovery of any player committing any violation regarded as unfair play, that player will be disqualified from the tournament. </li>
+                                    <li>During the course of any match, the operations staff and/or referee may determine other actions to be unfair play at any time.</li>
+                                    <li>Chatting, the player may be given a warning or lose by defaults at the referee’s sole discretions.</li>
+                                    <li>A participant has to report at the venue with respect to the schedule time table. No participant shall be allowed to participate if he/she does not report to the organizing authority within their reporting time.</li>
+                                    <li>A participant shall be reported about exact time of their match when they report.</li>
+                                    <li>If a participant is found missing before the round, then the opponent shall be awarded a walkover to the next round.</li>
+                                    <li>Gamer must switched off their cell phones, smart watches, tab or any other electronics devices.</li>
+                                    <li>Food and drinks are not allowed except for chewing gums or breathe fresheners. </li>
+                                </ol>
+                            </li>
+                            <p><b>AGAIN A REFEREE”S DECISION HAS TO BE ACCEPTED BY THE PARTICIPANTS AND NO ARGUMENT WILL BE ACCEPTABLE.</b></p>
                         </ol>
                     </div>
                 </div>
@@ -90,19 +144,27 @@
                     <div class="col-md-12 text-center">
                         <h2>Important Dates</h2>
 
-                        <table class="text-center table table-bordered">
+                        <table class="text-center table table-bordered " >
                             <tr>
                                 <th>Date</th>
-                                <th>Programme Description</th>
+                                <th>Description</th>
                             </tr>
 
                             <tr>
-                                <td>30/9/2015</td>
-                                <td>Registration close</td> 
+                                <td>1 September 2015</td>
+                                <td>Registration Start</td> 
                             </tr>
                             <tr>
-                                <td>09/10/2015</td>
-                                <td>Programme Starts</td> 
+                                <td>15 September 2015</td>
+                                <td>Registration Close</td> 
+                            </tr>
+                            <tr>
+                                <td>17 September 2015</td>
+                                <td>Selected Team List will be Published</td> 
+                            </tr>
+                            <tr>
+                                <td>20 September 2015</td>
+                                <td>Payment Deadline</td> 
                             </tr>
 
                         </table>

@@ -53,43 +53,24 @@
                             <th>Team Number</th>
                             <th>Team Name</th>
                             <th>University Name</th>
+                            <th>Status</th>
                             <th>Team Details</th>
                         </tr>
-
+                        <?php $count=1; ?>
+                        @foreach($teams as $team)
                         <tr>
-                            <td>1</td>
-                            <td>sust pallindrome</td>
-                            <td>shahjalal university of science &amp; technology</td>
-                            <td><a href="#programmingTeam1" class="btn btn-default fancybox">View Details</a></td>
+                            <td>{{$count}}</td>
+                            <td>{{$team->team_name}}</td>
+                            <td>{{$team->university}}</td>
+                            @if($team->status == 0)
+                            <td style="color:red">Pending</td>
+                            @elseif($team->status == 1)
+                            <td style="color:green">Confirmed</td>
+                            @endif
+                            <td><a href="#programmingTeam{{$team->id}}" class="btn btn-default fancybox">View Details</a></td>
                         </tr>
-
-                        <tr>
-                            <td>2</td>
-                            <td>sust pallindrome</td>
-                            <td>shahjalal university of science &amp; technology</td>
-                            <td><a href="#programmingTeam2" class="btn btn-default fancybox">View Details</a></td>
-                        </tr>
-
-                        <tr>
-                            <td>3</td>
-                            <td>sust pallindrome</td>
-                            <td>shahjalal university of science &amp; technology</td>
-                            <td><a href="#programmingTeam3" class="btn btn-default fancybox">View Details</a></td>
-                        </tr>
-
-                        <tr>
-                            <td>4</td>
-                            <td>sust pallindrome</td>
-                            <td>shahjalal university of science &amp; technology</td>
-                            <td><a href="#programmingTeam4" class="btn btn-default fancybox">View Details</a></td>
-                        </tr>
-
-                        <tr>
-                            <td>5</td>
-                            <td>sust pallindrome</td>
-                            <td>shahjalal university of science &amp; technology</td>
-                            <td><a href="#programmingTeam5" class="btn btn-default fancybox">View Details</a></td>
-                        </tr>
+                        <?php $count++; ?>
+                        @endforeach
                     </table>
                 </div>
             </div>
@@ -99,161 +80,43 @@
 
     <!--  Team Details Pop up -->
 
-
-    <div id="programmingTeam1" class="container text-center" style="display: none;">
+    @foreach($teams as $team)
+    <div id="programmingTeam{{$team->id}}" class="container text-center" style="display: none;">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <div class="row">
-                    <img src="{{asset('carnival_assets/img/speaker1.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Team Coach">
-                    <h4><em>Dr. Md. Zafar Iqbal</em></h4>
-                    <p>Coach, Team Name</p>
+                    <img src="{{asset("uploads/registration/$team->coach_photo")}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Team Coach">
+                    <h4><em>{{$team->coach_name}}</em></h4>
+                    <p>Coach, {{$team->team_name}}</p>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="{{asset('carnival_assets/img/speaker2.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Foysal Ahmed Emon</em></h4>
-                        <p>Participant 1, Team Name</p>
+                        <img src="{{asset("uploads/registration/$team->member1_photo")}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
+                        <h4><em>{{$team->member1_name}}</em></h4>
+                        <p>Participant 1, {{$team->team_name}}</p>
                     </div>
 
                     <div class='col-md-4'>
-                        <img src="{{asset('carnival_assets/img/speaker3.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Abu Shahriar Ratul</em></h4>
-                        <p>Participant 2, Team Name</p>
+                        <img src="{{asset("uploads/registration/$team->member2_photo")}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
+                        <h4><em>{{$team->member2_name}}</em></h4>
+                        <p>Participant 2, {{$team->team_name}}</p>
                     </div>
 
                     <div class="col-md-4">
-                        <img src="{{asset('carnival_assets/img/speaker4.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Shibbir Ahmed Osmani</em></h4>
-                        <p>Participant 3, Team Name</p>
+                        <img src="{{asset("uploads/registration/$team->member3_photo")}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
+                        <h4><em>{{$team->member3_name}}</em></h4>
+                        <p>Participant 3, {{$team->team_name}}</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    @endforeach
 
-    <div id="programmingTeam2" class="container text-center" style="display: none;">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                    <img src="{{asset('carnival_assets/img/speaker1.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Team Coach">
-                    <h4><em>Dr. Md. Zafar Iqbal</em></h4>
-                    <p>Coach, Team Name</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="{{asset('carnival_assets/img/speaker2.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Foysal Ahmed Emon</em></h4>
-                        <p>Participant 1, Team Name</p>
-                    </div>
+ 
 
-                    <div class='col-md-4'>
-                        <img src="{{asset('carnival_assets/img/speaker3.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Abu Shahriar Ratul</em></h4>
-                        <p>Participant 2, Team Name</p>
-                    </div>
+    
 
-                    <div class="col-md-4">
-                        <img src="{{asset('carnival_assets/img/speaker4.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Shibbir Ahmed Osmani</em></h4>
-                        <p>Participant 3, Team Name</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="programmingTeam3" class="container text-center" style="display: none;">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                    <img src="{{asset('carnival_assets/img/speaker1.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Team Coach">
-                    <h4><em>Dr. Md. Zafar Iqbal</em></h4>
-                    <p>Coach, Team Name</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="{{asset('carnival_assets/img/speaker2.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Foysal Ahmed Emon</em></h4>
-                        <p>Participant 1, Team Name</p>
-                    </div>
-
-                    <div class='col-md-4'>
-                        <img src="{{asset('carnival_assets/img/speaker3.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Abu Shahriar Ratul</em></h4>
-                        <p>Participant 2, Team Name</p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <img src="{{asset('carnival_assets/img/speaker4.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Shibbir Ahmed Osmani</em></h4>
-                        <p>Participant 3, Team Name</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="programmingTeam4" class="container text-center" style="display: none;">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                    <img src="{{asset('carnival_assets/img/speaker1.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Team Coach">
-                    <h4><em>Dr. Md. Zafar Iqbal</em></h4>
-                    <p>Coach, Team Name</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="{{asset('carnival_assets/img/speaker2.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Foysal Ahmed Emon</em></h4>
-                        <p>Participant 1, Team Name</p>
-                    </div>
-
-                    <div class='col-md-4'>
-                        <img src="{{asset('carnival_assets/img/speaker3.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Abu Shahriar Ratul</em></h4>
-                        <p>Participant 2, Team Name</p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <img src="{{asset('carnival_assets/img/speaker4.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Shibbir Ahmed Osmani</em></h4>
-                        <p>Participant 3, Team Name</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="programmingTeam5" class="container text-center" style="display: none;">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                    <img src="{{asset('carnival_assets/img/speaker1.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Team Coach">
-                    <h4><em>Dr. Md. Zafar Iqbal</em></h4>
-                    <p>Coach, Team Name</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="{{asset('carnival_assets/img/speaker2.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Foysal Ahmed Emon</em></h4>
-                        <p>Participant 1, Team Name</p>
-                    </div>
-
-                    <div class='col-md-4'>
-                        <img src="{{asset('carnival_assets/img/speaker3.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Abu Shahriar Ratul</em></h4>
-                        <p>Participant 2, Team Name</p>
-                    </div>
-
-                    <div class="col-md-4">
-                        <img src="{{asset('carnival_assets/img/speaker4.jpg')}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
-                        <h4><em>Shibbir Ahmed Osmani</em></h4>
-                        <p>Participant 3, Team Name</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
     
     
     <!-- <section class="main-content">

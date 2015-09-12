@@ -146,10 +146,6 @@ class ContestController extends \BaseController {
 			'team_name'		=> 'required|unique:registration',
 			'university'	=>	'required',
 
-			'coach_name'	=>	'required',
-			'coach_email'	=>	'required',
-			'coach_mobile'	=>	'required',	
-			'coach_photo'	=>	'required|mimes:jpg,png,jpeg',	
 
 			'member1_name'	=>	'required',
 			'member1_email'	=>	'required',
@@ -179,7 +175,7 @@ class ContestController extends \BaseController {
 		}
 		else{
 
-			if (Input::hasFile('coach_photo') && Input::hasFile('member1_photo') 
+			if (Input::hasFile('member1_photo') 
 				&& Input::hasFile('member1_id_photo') && Input::hasFile('member2_photo')
 				&& Input::hasFile('member2_id_photo') && Input::hasFile('member3_photo')
 				&& Input::hasFile('member3_id_photo'))
@@ -187,11 +183,6 @@ class ContestController extends \BaseController {
         	  //path
         	  $destinationPath = public_path('uploads/registration');
 
-
-
-        	  $coach_photo = Input::file('coach_photo');
-	          $coach_photo_fileName = strtotime(date('Y-m-d H:i:s')).md5($coach_photo->getClientOriginalName()).".".$coach_photo->getClientOriginalExtension();
-	          $coach_photo->move($destinationPath, $coach_photo_fileName);
 
 	          $member1_photo = Input::file('member1_photo');
 	          $member1_photo_fileName = strtotime(date('Y-m-d H:i:s')).md5($member1_photo->getClientOriginalName()).".".$member1_photo->getClientOriginalExtension();
@@ -225,10 +216,6 @@ class ContestController extends \BaseController {
 				$reg->team_name= $data['team_name'];
 				$reg->university= $data['university'];
 
-				$reg->coach_name= $data['coach_name'];
-				$reg->coach_email= $data['coach_email'];
-				$reg->coach_mobile= $data['coach_mobile'];
-				$reg->coach_photo= $coach_photo_fileName;
 
 				$reg->member1_name= $data['member1_name'];
 				$reg->member1_email= $data['member1_email'];
@@ -279,11 +266,6 @@ class ContestController extends \BaseController {
 			'team_name'		=> 'required|unique:registration',
 			'university'	=>	'required',
 
-			'coach_name'	=>	'required',
-			'coach_email'	=>	'required',
-			'coach_mobile'	=>	'required',	
-			'coach_photo'	=>	'required|mimes:jpg,png,jpeg',	
-
 			'member1_name'	=>	'required',
 			'member1_email'	=>	'required',
 			'member1_mobile'	=>	'required',	
@@ -312,7 +294,7 @@ class ContestController extends \BaseController {
 		}
 		else{
 
-			if (Input::hasFile('coach_photo') && Input::hasFile('member1_photo') 
+			if (Input::hasFile('member1_photo') 
 				&& Input::hasFile('member1_id_photo') && Input::hasFile('member2_photo')
 				&& Input::hasFile('member2_id_photo') && Input::hasFile('member3_photo')
 				&& Input::hasFile('member3_id_photo'))
@@ -320,11 +302,6 @@ class ContestController extends \BaseController {
         	  //path
         	  $destinationPath = public_path('uploads/registration');
 
-
-
-        	  $coach_photo = Input::file('coach_photo');
-	          $coach_photo_fileName = strtotime(date('Y-m-d H:i:s')).md5($coach_photo->getClientOriginalName()).".".$coach_photo->getClientOriginalExtension();
-	          $coach_photo->move($destinationPath, $coach_photo_fileName);
 
 	          $member1_photo = Input::file('member1_photo');
 	          $member1_photo_fileName = strtotime(date('Y-m-d H:i:s')).md5($member1_photo->getClientOriginalName()).".".$member1_photo->getClientOriginalExtension();
@@ -357,11 +334,6 @@ class ContestController extends \BaseController {
 	          	$reg = new Registration();
 				$reg->team_name= $data['team_name'];
 				$reg->university= $data['university'];
-
-				$reg->coach_name= $data['coach_name'];
-				$reg->coach_email= $data['coach_email'];
-				$reg->coach_mobile= $data['coach_mobile'];
-				$reg->coach_photo= $coach_photo_fileName;
 
 				$reg->member1_name= $data['member1_name'];
 				$reg->member1_email= $data['member1_email'];
@@ -408,7 +380,6 @@ class ContestController extends \BaseController {
 	}
 
 	public function gc_store(){
-
 
 		$rules =[
 
