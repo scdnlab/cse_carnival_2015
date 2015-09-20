@@ -151,25 +151,29 @@
                             </tr>
 
                             <tr>
-                                <td>1 September 2015</td>
+                                <td>21 September 2015</td>
                                 <td>Registration Start</td> 
                             </tr>
                             <tr>
-                                <td>15 September 2015</td>
+                                <td>7 October 2015</td>
                                 <td>Registration Close</td> 
                             </tr>
                             <tr>
-                                <td>17 September 2015</td>
+                                <td>8 October 2015</td>
                                 <td>Selected Team List will be Published</td> 
                             </tr>
                             <tr>
-                                <td>20 September 2015</td>
+                                <td>12 October 2015</td>
                                 <td>Payment Deadline</td> 
                             </tr>
 
                         </table>
                     </div>
                 </div>
+            </section>
+
+            <section class="quick-registration-link" align=center>
+            <a href="{{route('reg.pc')}}" class="btn btn-black">Register Now</a>
             </section>
         </div>
     </section>

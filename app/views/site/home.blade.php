@@ -47,8 +47,17 @@
                             </div>
                         </div>  <!--  end of .timer  -->
 
-                        <a href="{{url('/events')}}" class="btn btn-registeration text-capitalize">
-                            Register now
+                        <a href="{{route('event.pc')}}" class="btn btn-registeration text-capitalize">
+                            Programming Contest
+                        </a>
+                        <a href="{{route('event.sc')}}" class="btn btn-registeration text-capitalize">
+                            Software Contest
+                        </a>
+                        <a href="{{route('event.ps')}}" class="btn btn-registeration text-capitalize">
+                            Project Showcasing
+                        </a>
+                        <a href="{{route('event.gc')}}" class="btn btn-registeration text-capitalize">
+                            Gaming Competition
                         </a>
                     </div>  <!-- end of .heading-content-->
                 </div>

@@ -54,6 +54,7 @@
                             <th>Team Number</th>
                             <th>Team Name</th>
                             <th>University Name</th>
+                            <th>Track</th>
                             <th>Status</th>
                             <th>Team Details</th>
                         </tr>
@@ -63,6 +64,7 @@
                             <td>{{$count}}</td>
                             <td>{{$team->team_name}}</td>
                             <td>{{$team->university}}</td>
+                            <td>{{strtoupper($team->sc_track)}}</td>
                             @if($team->status == 0)
                             <td style="color:red">Pending</td>
                             @elseif($team->status == 1)

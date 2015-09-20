@@ -120,7 +120,7 @@ class ContestController extends \BaseController {
 				$reg->status=0;
 
 				 if($reg->save())
-		            return Redirect::route('reg.pc')
+		            return Redirect::route('team.pc')
 		                    ->with('success', "Registration Successful");
 		         else
 		            return Redirect::route('reg.pc')->with('error',"Photos error, Please Try Again");
@@ -145,6 +145,7 @@ class ContestController extends \BaseController {
 		$rules =[
 			'team_name'		=> 'required|unique:registration',
 			'university'	=>	'required',
+			'sc_track'	=>	'required',
 
 
 			'member1_name'	=>	'required',
@@ -215,6 +216,7 @@ class ContestController extends \BaseController {
 	          	$reg = new Registration();
 				$reg->team_name= $data['team_name'];
 				$reg->university= $data['university'];
+				$reg->sc_track= $data['sc_track'];
 
 
 				$reg->member1_name= $data['member1_name'];
@@ -239,7 +241,7 @@ class ContestController extends \BaseController {
 				$reg->status=0;
 
 				 if($reg->save())
-		            return Redirect::route('reg.sc')
+		            return Redirect::route('team.sc')
 		                    ->with('success', "Registration Successful");
 		         else
 		            return Redirect::route('reg.sc')->with('error',"Photos error, Please Try Again");
@@ -357,7 +359,7 @@ class ContestController extends \BaseController {
 				$reg->status=0;
 
 				 if($reg->save())
-		            return Redirect::route('reg.ps')
+		            return Redirect::route('team.ps')
 		                    ->with('success', "Registration Successful");
 		         else
 		            return Redirect::route('reg.ps')->with('error',"Photos error, Please Try Again");
@@ -434,7 +436,7 @@ class ContestController extends \BaseController {
 
 
 				 if($flag_done)
-		            return Redirect::route('reg.gc')
+		            return Redirect::route('team.gc')
 		                    ->with('success', "Registration Successful");
 		         else
 		            return Redirect::route('reg.gc')->with('error',"Photos error, Please Try Again");

@@ -8,7 +8,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name ="description" content="Organized By CSE Society,Department of CSE,SUST,Sylhet" />
 
-
+    <meta property="og:title" content="{{$title}}" />
+    <meta property="og:url" content="http://csecarnival.com" />
+    <meta property="og:description" content="Organized By CSE Society,Department of CSE,SUST,Sylhet" />
+    <meta property="article:author" content="CSE Society, SUST" />
+    <meta property="article:publisher" content="Department of CSE, SUST" />
+    <meta property="og:image" content="http://scdnlab.com/fb_share.png" />
 
     <!-- stylesheets -->
 

@@ -18,16 +18,13 @@
 
                     <ul>
                         <li>
-                            <a href="https://www.facebook.com/sustcsesociety?fref=ts" class="facebook" target="_blank" data-rel="tooltip" data-placement="bottom" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="https://www.facebook.com/sustcsesociety" class="facebook" target="_blank" data-rel="tooltip" data-placement="bottom" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
                         </li>
 
                         <li>
-                            <a href="" class="twitter" data-rel="tooltip" data-placement="bottom" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a target="_blank" href="https://twitter.com/csesociety" class="twitter" data-rel="tooltip" data-placement="bottom" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
                         </li>
 
-                        <li>
-                            <a href="" class="google" data-rel="tooltip" data-placement="bottom" data-original-title="Google +"><i class="fa fa-google-plus"></i></a>
-                        </li>
 
                         <!-- <li>
                             <a href="" class="linkedin" data-rel="tooltip" data-placement="bottom" data-original-title="Linkedin"><i class="fa fa-linkedin"></i></a>

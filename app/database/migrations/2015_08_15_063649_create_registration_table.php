@@ -18,6 +18,7 @@ class CreateRegistrationTable extends Migration {
 			$table->engine = 'InnoDB';
 			$table->increments('id');
 			$table->enum('contest', array('pc', 'sc', 'ps'));
+			$table->string('sc_track');
 			$table->string('team_name')->unique();
 			$table->string('university');
 

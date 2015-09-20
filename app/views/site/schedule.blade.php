@@ -46,13 +46,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h2>Schedule of SUST 5<sup>th</sup> National CSE CARNIVAL 2015</h2>
+                        <h2>Schedule of IPvision SUST 5<sup>th</sup> CSE CARNIVAL 2015</h2>
                     </div>
 
                 </div>
                 <div class="row">
                     <div class="col-md-6 text-center">
-                        <h3>Day 01 (09th October, 2015) Friday</h3>
+                        <h3>Day 01 (06th November, 2015) Friday</h3>
                         <table class="text-center table table-bordered">
                             <tr>
                                 <th>Time</th>
@@ -120,7 +120,7 @@
                     </div>
 
                     <div class="col-md-6 text-center">
-                        <h3>Day 02 (10th October, 2015) Saturday</h3>
+                        <h3>Day 02 (07th November, 2015) Saturday</h3>
                         <table class="text-center table table-bordered">
                             <tr>
                                 <th>Time</th>
