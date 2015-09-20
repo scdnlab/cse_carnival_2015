@@ -191,6 +191,8 @@
                                                 <option>Varendra University</option>
                                                 <option>Victoria University of Bangladesh</option>
                                                 <option>World University of Bangladesh</option>
+
+                                                <option>Other</option>
                                             </select>
                                         </div>
                                     </div>
