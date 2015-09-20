@@ -6,14 +6,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name ="description" content="Organized By CSE Society,Department of CSE,SUST,Sylhet" />
+    <meta name ="description" content="Organized By CSE Society, Department of CSE, SUST, Sylhet" />
 
     <meta property="og:title" content="{{$title}}" />
     <meta property="og:url" content="http://csecarnival.com" />
-    <meta property="og:description" content="Organized By CSE Society,Department of CSE,SUST,Sylhet" />
+    <meta property="og:description" content="Organized By CSE Society, Department of CSE, SUST, Sylhet" />
     <meta property="article:author" content="CSE Society, SUST" />
     <meta property="article:publisher" content="Department of CSE, SUST" />
-    <meta property="og:image" content="http://scdnlab.com/fb_share.png" />
+
+    <link rel="image_src" type="image/jpeg" href="http://scdnlab.com/fb_share.png" />
+    <meta property="og:image" content="http://scdnlab.com/fb_share.png"/>
+    <meta property="og:image:secure_url" content="http://scdnlab.com/fb_share.png" />
 
     <!-- stylesheets -->
 
