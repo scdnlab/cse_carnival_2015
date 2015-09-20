@@ -160,11 +160,15 @@
                             </tr>
                             <tr>
                                 <td>8 October 2015</td>
-                                <td>Selected Team List will be Published</td> 
+                                <td>Selected Participants List will be Published</td> 
                             </tr>
                             <tr>
                                 <td>12 October 2015</td>
                                 <td>Payment Deadline</td> 
+                            </tr>
+                            <tr>
+                                <td>6-7 November 2015</td>
+                                <td>Competition</td> 
                             </tr>
 
                         </table>

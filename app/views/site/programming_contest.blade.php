@@ -50,7 +50,7 @@
                     <div class="col-md-12 text-center">
                         <h2>Participants</h2>
                         <p>
-                            Teams including 3 members and a coach from different universities from all over the country will be participating in <b>IPvision SUST CSE Carnival 2015</b>. Each contestant must be a student enrolled in a degree program at the participating institution with at least a half-time load. A representative of the participating university, typically a faculty member, must be designated as the team coach. The team coach certifies the eligibility of contestants and serves as the official point-of-contact with the team, prior to and during contest activities. Participating universities will be issued an invitation letter by postal mail.
+                            Teams including 3 members and a coach from different universities from all over the country will be participating in <b>IPvision SUST 5th CSE Carnival 2015</b>. Each contestant must be a student enrolled in a degree program at the participating institution with at least a half-time load. A representative of the participating university, typically a faculty member, must be designated as the team coach. The team coach certifies the eligibility of contestants and serves as the official point-of-contact with the team, prior to and during contest activities. Participating universities will be issued an invitation letter by postal mail.
                         </p>
                     </div>
                 </div>
@@ -69,11 +69,12 @@
                                 For any university extra N team(s) will get the chance to participate, depending on ICPC 2014 Dhaka site event performance.
                             </li>
                             <li>
-                                The program committee reserves all the rights to accept or reject any additional teams after fulfilling the above-mentioned criterion.
-                            </li>
-                            <li>
                                 The contest hosting university may be allowed to additional teams, which will be decided by program committee.
                             </li>
+                            <li>
+                                The program committee reserves all the rights to accept or reject any additional teams after fulfilling the above-mentioned criterion.
+                            </li>
+                            
                         </ol>
                     </div>
                 </div>
@@ -105,6 +106,14 @@
                             <tr>
                                 <td>12 October 2015</td>
                                 <td>Payment Deadline</td> 
+                            </tr>
+                            <tr>
+                                <td>6 November 2015</td>
+                                <td>Mock Contest</td> 
+                            </tr>
+                            <tr>
+                                <td>7 November 2015</td>
+                                <td>Final Contest</td> 
                             </tr>
 
                         </table>

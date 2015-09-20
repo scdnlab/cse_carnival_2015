@@ -54,15 +54,20 @@
                                 Maximum <b>3</b> Members in a Group
                             </li>
                             <li>
-                                Open only for UNIVERSITY Students
+                                Only UNIVERSITY Students can participate
                             </li>
                             <li>
-                                Only registered projects will be allowed
+                                Registration should be done before the deadline (on spot registration is not allowed). 
                             </li>
                             <li>
-                                Participants should bring their University ID Card Or Recommendation Letter when registering.
+                                All team must have to bring all necessary accessories (PC, Hardware, Backup Internet Modem) for their project with them. Only Wifi will be provided. 
 
                             </li>
+                            <li>
+                                The showcasing will be held in both two days of the Carnival. So
+every team must have to be present in both 1st and 2nd day. 
+                            </li>
+                            <li>The program committee reserves all the rights to accept or reject any additional teams after fulfilling the above-mentioned criterion.</li>
                         </ol>
                     </div>
                 </div>
@@ -104,6 +109,10 @@
                             <tr>
                                 <td>12 October 2015</td>
                                 <td>Payment Deadline</td> 
+                            </tr>
+                            <tr>
+                                <td>6-7 November 2015</td>
+                                <td>Project Showcasing</td> 
                             </tr>
 
                         </table>

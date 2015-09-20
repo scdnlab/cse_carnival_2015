@@ -55,9 +55,6 @@
                                 Track: <b>Web [PHP/ASP.NET/Java] and Mobile [Android/iOS/Windows]</b>
                             </li>
                             <li>
-                                Every Team must has to contain 3 members
-                            </li>
-                            <li>
                             <b>24</b> Hours Long [12 PM - 12 PM] 
                             </li>
                         </ol>
@@ -68,17 +65,38 @@
             <section class="event-section">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h2>Participants Rules</h2>
+                        <h2>Participants</h2>
                         <ol>
                             <li>
-                                Only One Team from a University can participate in a Single Track, so Two team for Two Tracks
+                                Maximum <b>3</b> Members in a Group
+                            </li>
+                            <li>
+                                Only UNIVERSITY Students can participate
+                            </li>
+                            <li>
+                                Registration should be done before the deadline (on spot registration is not allowed). 
+                            </li>
+                            <li>
+                                All team must have to bring all necessary accessories (PC, Hardware, Backup Internet Modem) with them. Only Wifi will be provided. 
+
+                            </li>
+                            
+                            <li>
+                                <b>Only One Team from a University</b> can participate in a Single Track, so <b>Two team for Two Tracks</b>,</br> Example:
+                                
+                                    <ul><i>One Team from SUST can participate in Web Track and they can choose PHP/.NET/Java</i></ul>
+                                    <ul><i>Another Team from SUST can participate in Mobile Track and they can choose Android/iOS/WindowsPhone</i></ul>
+                        
                             </li>
                             <li>
                                 Every Team has to develop a System within the Time Limit
                             </li>
                             <li>
-                                An Online based MCQ Test will be taken
+                                An Online based MCQ Test may be taken if the Registration is exceed the limit
                             </li>
+                             <li>The program committee reserves all the rights to accept or reject any additional teams after fulfilling the above-mentioned criterion.</li>
+
+
                         </ol>
                     </div>
                 </div>
@@ -114,11 +132,19 @@
                             </tr>
                             <tr>
                                 <td>8 October 2015</td>
+                                <td>Online MCQ Round</td> 
+                            </tr>
+                            <tr>
+                                <td>8 October 2015</td>
                                 <td>Selected Team List will be Published</td> 
                             </tr>
                             <tr>
                                 <td>12 October 2015</td>
                                 <td>Payment Deadline</td> 
+                            </tr>
+                            <tr>
+                                <td>6-7 November 2015</td>
+                                <td>Final Round</td> 
                             </tr>
 
                         </table>
