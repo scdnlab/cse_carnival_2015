@@ -79,6 +79,15 @@
                     </div>
                 </div>
             </section>
+            
+            <section class="event-section">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2>Registration Fees</h2>
+                            <p>Registration Fee <b>4000.00 BDT</b> per team(3 members).</p>
+                    </div>
+                </div>
+            </section>
 
             <section class="event-section">
                 <div class="row">
