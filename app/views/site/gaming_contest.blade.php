@@ -179,6 +179,15 @@
                     </div>
                 </div>
             </section>
+            
+            <section class="event-section">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2>Question and Discussion</h2>
+                            <a target="_blank" href="https://www.facebook.com/events/936823389745448/">Please Visit Facebook Event Page</a>
+                    </div>
+                </div>
+            </section>
 
             <section class="quick-registration-link" align=center>
             <a href="{{route('reg.pc')}}" class="btn btn-black">Register Now</a>
