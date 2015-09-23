@@ -119,6 +119,15 @@ every team must have to be present in both 1st and 2nd day.
                     </div>
                 </div>
             </section>
+            
+            <section class="event-section">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2>Question and Discussion</h2>
+                            <a target="_blank" href="https://www.facebook.com/events/436521793199981/">Please Visit Facebook Event Page</a>
+                    </div>
+                </div>
+            </section>
 
             <section class="quick-registration-link" align=center>
             <a href="{{route('reg.pc')}}" class="btn btn-black">Register Now</a>
