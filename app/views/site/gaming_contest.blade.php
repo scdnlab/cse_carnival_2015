@@ -53,12 +53,14 @@
                             <li>
                                 <h3>Registration</h3>
                                 <p>
-                                    Only individual registration. Team is not allowed.
+                                    <ol>Anyone can participate</ol>
+                                    <ol>Only individual registration. Team is not allowed.</ol>
                                 </p>
                             </li>
                             <li>
                                 <h3>Registration Fees</h3>
-                                <p>Registration Fee 400/= BDT per participant per Game</p>
+                                <p>Fifa 14: Registration Fee 400.00 BDT per participant</p>
+                                <p>NFS (Most Wanted): Registration Fee 400.00 BDT per participant</p>
                             </li>
                             <li>
                                 <h3>Rules for the Fifa 14</h3>
