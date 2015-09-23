@@ -48,7 +48,7 @@
             <section class="event-section">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h2>Fifa 14</h2>
+                        <h2>Fifa 14 and NFS (Most Wanted)</h2>
                         <ol>
                             <li>
                                 <h3>Registration</h3>
