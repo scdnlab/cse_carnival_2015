@@ -53,8 +53,10 @@
                             <li>
                                 <h3>Registration</h3>
                                 <p>
-                                    <ol>Anyone can participate</ol>
-                                    <ol>Only individual registration. Team is not allowed.</ol>
+                                    <ol>
+                                    <p>Anyone can participate</p>
+                                    <p>Only individual registration. Team is not allowed.</p>
+                                    </ol>
                                 </p>
                             </li>
                             <li>
