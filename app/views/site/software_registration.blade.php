@@ -145,6 +145,7 @@
                                                 <option>Noakhali Science and Technology University</option>
                                                 <option>North South University</option>
                                                 <option>North Western University, Bangladesh</option>
+                                                <option>North East University Bangladesh</option>
                                                 <option>Northern University, Bangladesh</option>
                                                 <option>Notre Dame University Bangladesh</option>
 
