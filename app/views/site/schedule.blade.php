@@ -52,7 +52,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 text-center">
-                        <h3>Day 01 (06th November, 2015) Friday</h3>
+                        <h3>Day 01 (27th November, 2015) Friday</h3>
                         <table class="text-center table table-bordered">
                             <tr>
                                 <th>Time</th>
@@ -120,7 +120,7 @@
                     </div>
 
                     <div class="col-md-6 text-center">
-                        <h3>Day 02 (07th November, 2015) Saturday</h3>
+                        <h3>Day 02 (28th November, 2015) Saturday</h3>
                         <table class="text-center table table-bordered">
                             <tr>
                                 <th>Time</th>
