@@ -99,19 +99,19 @@ every team must have to be present in both 1st and 2nd day.
                                 <td>Registration Start</td> 
                             </tr>
                             <tr>
-                                <td>7 October 2015</td>
+                                <td>31 October 2015</td>
                                 <td>Registration Close</td> 
                             </tr>
                             <tr>
-                                <td>8 October 2015</td>
+                                <td>1 November 2015</td>
                                 <td>Selected Team List will be Published</td> 
                             </tr>
                             <tr>
-                                <td>12 October 2015</td>
+                                <td>5 November 2015</td>
                                 <td>Payment Deadline</td> 
                             </tr>
                             <tr>
-                                <td>6-7 November 2015</td>
+                                <td>27-28 November 2015</td>
                                 <td>Project Showcasing</td> 
                             </tr>
 
