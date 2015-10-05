@@ -160,13 +160,13 @@
                             <li class="active">
                                 <a href="#DayOne" data-toggle="tab">
                                     <div class="dayNumber">Day 1</div>
-                                    <div class="date">06/11/2015</div>
+                                    <div class="date">27/11/2015</div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#DayTwo" data-toggle="tab">
                                     <div class="dayNumber">Day 2</div>
-                                    <div class="date">07/11/2015</div>
+                                    <div class="date">28/11/2015</div>
                                 </a>
                             </li>
                         </ul> <!-- end of nav-tabs -->
