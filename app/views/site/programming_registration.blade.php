@@ -117,7 +117,7 @@
                                                 <option>Independent University, Bangladesh</option>
                                                 <option>International Islamic University, Chittagong</option>
                                                 <option>International University of Business Agriculture and Technology</option>
-
+                                                <option>Institute of Science and Technology, Dhanmondi, Dhaka</option>
 
                                                 <option>Jagannath University</option>
                                                 <option>Jahangirnagar University</option>
