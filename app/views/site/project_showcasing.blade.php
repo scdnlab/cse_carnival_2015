@@ -130,7 +130,7 @@ every team must have to be present in both 1st and 2nd day.
             </section>
 
             <section class="quick-registration-link" align=center>
-            <a href="{{route('reg.pc')}}" class="btn btn-black">Register Now</a>
+            <a href="{{route('reg.ps')}}" class="btn btn-black">Register Now</a>
             </section>
             
         </div>
