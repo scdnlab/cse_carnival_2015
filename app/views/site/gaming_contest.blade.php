@@ -190,7 +190,7 @@
             </section>
 
             <section class="quick-registration-link" align=center>
-            <a href="{{route('reg.pc')}}" class="btn btn-black">Register Now</a>
+            <a href="{{route('reg.gc')}}" class="btn btn-black">Register Now</a>
             </section>
         </div>
     </section>
