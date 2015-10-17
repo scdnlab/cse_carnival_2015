@@ -96,6 +96,7 @@
 
                                                 <option>Dhaka University of Engineering & Technology</option>
                                                 <option>Daffodil International University</option>
+                                                <option>Daffodil Institute of Information Technology</option>
                                                 <option>Darul Ihsan University</option>
                                                 <option>Dhaka International University</option>
 
