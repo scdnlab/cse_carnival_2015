@@ -485,6 +485,12 @@ class ContestController extends \BaseController {
 			'member4_photo'	=>	'required|mimes:jpg,png,jpeg',
 			'member4_id_photo'	=>	'required|mimes:jpg,png,jpeg',
 
+			'member5_name'	=>	'required',
+			'member5_email'	=>	'required',
+			'member5_mobile'	=>	'required',
+			'member5_photo'	=>	'required|mimes:jpg,png,jpeg',
+			'member5_id_photo'	=>	'required|mimes:jpg,png,jpeg',
+
 		];
 		$data = Input::all();
 
@@ -498,7 +504,8 @@ class ContestController extends \BaseController {
 			if (Input::hasFile('member1_photo') && Input::hasFile('member1_id_photo')
 				&& Input::hasFile('member2_photo') && Input::hasFile('member2_id_photo')
 				&& Input::hasFile('member3_photo') && Input::hasFile('member3_id_photo')
-				&& Input::hasFile('member4_photo') && Input::hasFile('member4_id_photo'))
+				&& Input::hasFile('member4_photo') && Input::hasFile('member4_id_photo')
+				&& Input::hasFile('member5_photo') && Input::hasFile('member5_id_photo'))
 			{
 				//path
 				$destinationPath = public_path('uploads/registration');
@@ -539,6 +546,14 @@ class ContestController extends \BaseController {
 				$member4_id_photo_fileName = strtotime(date('Y-m-d H:i:s')).md5($member4_id_photo->getClientOriginalName()).".".$member4_id_photo->getClientOriginalExtension();
 				$member4_id_photo->move($destinationPath, $member4_id_photo_fileName);
 
+				$member5_photo = Input::file('member5_photo');
+				$member5_photo_fileName = strtotime(date('Y-m-d H:i:s')).md5($member5_photo->getClientOriginalName()).".".$member5_photo->getClientOriginalExtension();
+				$member5_photo->move($destinationPath, $member5_photo_fileName);
+
+				$member5_id_photo = Input::file('member5_id_photo');
+				$member5_id_photo_fileName = strtotime(date('Y-m-d H:i:s')).md5($member5_id_photo->getClientOriginalName()).".".$member5_id_photo->getClientOriginalExtension();
+				$member5_id_photo->move($destinationPath, $member5_id_photo_fileName);
+
 
 				$reg = new RegistrationGamesCS();
 				$reg->team_name= $data['team_name'];
@@ -566,6 +581,12 @@ class ContestController extends \BaseController {
 				$reg->member4_mobile= $data['member4_mobile'];
 				$reg->member4_photo= $member4_photo_fileName;
 				$reg->member4_id_photo= $member4_id_photo_fileName;
+
+				$reg->member5_name= $data['member5_name'];
+				$reg->member5_email= $data['member5_email'];
+				$reg->member5_mobile= $data['member5_mobile'];
+				$reg->member5_photo= $member5_photo_fileName;
+				$reg->member5_id_photo= $member5_id_photo_fileName;
 
 				$reg->status=0;
 

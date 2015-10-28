@@ -72,7 +72,7 @@
                 <div class="row">
                     <div class="team-member-info">
 
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <h3 class="text-center">Member1</h3>
                             <div class="form-group">
                                 {{ Form::text('member1_name', null, array('class' => 'form-control empty iconified', 'id'  => 'member1_name', 'required'  =>  'required', 'placeholder'   =>  '&#xf183;   Name')) }}
@@ -101,7 +101,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <h3 class="text-center">Member2</h3>
                             <div class="form-group">
                                 {{ Form::text('member2_name', null, array('class' => 'form-control empty iconified', 'id'  => 'member2_name', 'required'  =>  'required', 'placeholder'   =>  '&#xf183;   Name')) }}
@@ -130,7 +130,7 @@
                         </div>
 
 
-                        <div class="col-md-3">
+                        <div class="col-md-4">
                             <h3 class="text-center">Member3</h3>
                             <div class="form-group">
                                 {{ Form::text('member3_name', null, array('class' => 'form-control empty iconified', 'id'  => 'member3_name', 'required'  =>  'required', 'placeholder'   =>  '&#xf183;   Name')) }}
@@ -158,7 +158,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-4 col-lg-offset-2">
                             <h3 class="text-center">Member4</h3>
                             <div class="form-group">
                                 {{ Form::text('member4_name', null, array('class' => 'form-control empty iconified', 'id'  => 'member4_name', 'required'  =>  'required', 'placeholder'   =>  '&#xf183;   Name')) }}
@@ -182,6 +182,34 @@
                                 <button class="file-input btn btn-file" id="">
                                     Upload Scan Copy of Student ID
                                     {{ Form::file('member4_id_photo', array('class' => 'form-control empty','required'  =>  'required', 'id' =>  'member4_id_photo')) }}
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h3 class="text-center">Member5</h3>
+                            <div class="form-group">
+                                {{ Form::text('member5_name', null, array('class' => 'form-control empty iconified', 'id'  => 'member5_name', 'required'  =>  'required', 'placeholder'   =>  '&#xf183;   Name')) }}
+                            </div>
+
+                            <div class="form-group">
+                                {{ Form::email('member5_email', null, array('class' => 'form-control empty iconified', 'id'  => 'member5_email', 'required'  =>  'required', 'placeholder'   =>  '&#xf0e0;   E-mail')) }}
+                            </div>
+
+                            <div class="form-group">
+                                {{ Form::text('member5_mobile', null, array('class' => 'form-control empty iconified', 'id'  => 'member5_mobile', 'required'  =>  'required', 'placeholder'   =>  '&#xf10b;   Mobile No.')) }}                                </div>
+
+                            <div class="form-group">
+                                <button class="file-input btn btn-file" id="">
+                                    Upload Photo
+                                    {{ Form::file('member5_photo', array('class' => 'form-control empty','required'  =>  'required', 'id' =>  'member5_photo')) }}
+                                </button>
+                            </div>
+
+                            <div class="form-group">
+                                <button class="file-input btn btn-file" id="">
+                                    Upload Scan Copy of Student ID
+                                    {{ Form::file('member5_id_photo', array('class' => 'form-control empty','required'  =>  'required', 'id' =>  'member5_id_photo')) }}
                                 </button>
                             </div>
                         </div>

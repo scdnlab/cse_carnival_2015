@@ -89,22 +89,28 @@
                     </div>
                     <div class="row">
 
-                        <div class='col-md-4'>
-                            <img src="{{asset("uploads/registration/$team->member2_photo")}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
+                        <div class='col-md-3'>
+                            <img src="{{asset("uploads/registration/$team->member2_photo")}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 2">
                             <h4><em>{{$team->member2_name}}</em></h4>
                             <p>Member 2, {{$team->team_name}}</p>
                         </div>
 
-                        <div class="col-md-4">
-                            <img src="{{asset("uploads/registration/$team->member3_photo")}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 1">
+                        <div class="col-md-3">
+                            <img src="{{asset("uploads/registration/$team->member3_photo")}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 3">
                             <h4><em>{{$team->member3_name}}</em></h4>
                             <p>Member 3, {{$team->team_name}}</p>
                         </div>
 
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <img src="{{asset("uploads/registration/$team->member4_photo")}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 4">
                             <h4><em>{{$team->member4_name}}</em></h4>
                             <p>Member 4, {{$team->team_name}}</p>
+                        </div>
+
+                        <div class="col-md-3">
+                            <img src="{{asset("uploads/registration/$team->member5_photo")}}" style="width: 150px; height: 150px;" class="img-circle img-responsive center-block" alt="Participant 5">
+                            <h4><em>{{$team->member5_name}}</em></h4>
+                            <p>Member 5, {{$team->team_name}}</p>
                         </div>
                     </div>
                 </div>
