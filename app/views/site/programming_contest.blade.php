@@ -145,7 +145,7 @@
                     <div class="col-md-12 text-center">
                         <h2>Payment</h2>
                         Please send your payment as Bank Draft/Pay Order to</br>
-                        <b>CSE Event, Dept. of CSE, SUST</b></br>
+                        Account Name: <b>CSE Event, Dept. of CSE, SUST</b></br>
                         Account No: <b>34053918</b></br>
                         <b>Sonali Bank Ltd, SUST Branch, Sylhet<b/>
                     </div>
