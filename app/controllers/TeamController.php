@@ -43,4 +43,13 @@ class TeamController extends \BaseController {
 				->with('title','IPvision SUST CSE Carnival 2015 ::. Team ::. Gaming Contest');
 	}
 
+	//gaming cs
+	public function gc_cs(){
+		$teams = RegistrationGamesCS::orderBy('id', 'ASC')->get();
+
+		return View::make('site.game_cs_team')
+			->with('teams',$teams)
+			->with('title','IPvision SUST CSE Carnival 2015 ::. Team ::. Gaming Contest ::. Counter Strike');
+	}
+
 }

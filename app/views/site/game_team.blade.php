@@ -45,6 +45,9 @@
 
     <section class="main-content">
         <div class="container">
+            <div class="alert alert-info col-md-6 col-lg-offset-3" >
+                <h4 align="center">For Counter Strike Team List <a href="{{route('team.gc.cs')}}">Click here</a></h4>
+            </div>
             <div class="row">
                 <div class="col-md-12">
                     <table class="text-center table table-bordered">

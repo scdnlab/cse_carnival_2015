@@ -89,6 +89,9 @@ Route::get('team/projectShowcasing',['as' => 'team.ps', 'uses' => 'TeamControlle
 //gaming contest
 Route::get('team/gamingCompetition',['as' => 'team.gc', 'uses' => 'TeamController@gc']);
 
+//gaming contest CS
+Route::get('team/gamingCompetitionCS',['as' => 'team.gc.cs', 'uses' => 'TeamController@gc_cs']);
+
 
 
 
@@ -125,8 +128,11 @@ Route::post('registration/projectShowcasing',['as' => 'reg.ps.store', 'uses' => 
 
 //gaming contest
 Route::get('registration/gamingCompetition',['as' => 'reg.gc', 'uses' => 'ContestController@gc']);
-Route::post('registration/gamingContest',['as' => 'reg.gc.store', 'uses' => 'ContestController@gc_store']);
+Route::post('registration/gamingCompetition',['as' => 'reg.gc.store', 'uses' => 'ContestController@gc_store']);
 
+//gaming contest cs
+Route::get('registration/gamingCompetitionCS',['as' => 'reg.gc.cs', 'uses' => 'ContestController@gc_cs']);
+Route::post('registration/gamingCompetitionCS',['as' => 'reg.gc.cs.store', 'uses' => 'ContestController@gc_cs_store']);
 
 // conatact
 Route::get('/contact',function(){
