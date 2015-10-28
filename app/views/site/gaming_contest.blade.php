@@ -24,7 +24,7 @@
             <!-- end of /#navigation -->
     <!-- header begin -->
     <!-- header begin -->
-    <header class="page-head" style="background-image: url('{{asset('carnival_assets/img/gc_banner.png')}}');">
+    <header class="page-head" style="background-image: url('{{asset('carnival_assets/img/gc_banner.jpg')}}');">
         <div class="header-wrapper" >
             <!-- <div class="container">
                 <div class="row">
