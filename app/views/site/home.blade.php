@@ -78,7 +78,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="service-container">
                         <div class="service-icon">
                             <a href="#"><i class="fa fa-home"></i></a>
@@ -93,13 +93,13 @@
                     </div>
                 </div>
                 <!-- break -->
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="service-container">
                         <div class="service-icon">
                             <a href="#"><i class="fa fa-users"></i></a>
                         </div>
                         <div class="service-content">
-                            <h3>Qualityful Judges</h3>
+                            <h3>Renowned Judge</h3>
                             <hr class="hover-extend">
                             <p>
                                 
@@ -108,22 +108,22 @@
                     </div>
                 </div>
                 <!-- break -->
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="service-container">
-                        <div class="service-icon">
-                            <a href="#"><i class="fa fa-briefcase"></i></a>
-                        </div>
-                        <div class="service-content">
-                            <h3>Evening Party</h3>
-                            <hr class="hover-extend">
-                            <p>
-                                
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                {{--<div class="col-md-3 col-sm-6 col-xs-12">--}}
+                    {{--<div class="service-container">--}}
+                        {{--<div class="service-icon">--}}
+                            {{--<a href="#"><i class="fa fa-briefcase"></i></a>--}}
+                        {{--</div>--}}
+                        {{--<div class="service-content">--}}
+                            {{--<h3>Evening Party</h3>--}}
+                            {{--<hr class="hover-extend">--}}
+                            {{--<p>--}}
+                                {{----}}
+                            {{--</p>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
                 <!-- break -->
-                <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="service-container">
                         <div class="service-icon">
                             <a href="#"><i class="fa fa-thumbs-up"></i></a>
