@@ -129,6 +129,18 @@ every team must have to be present in both 1st and 2nd day.
                 </div>
             </section>
 
+            <section class="event-section">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2>Payment</h2>
+                        Please send your payment as Bank Draft/Pay Order to</br>
+                        <b>CSE Event Dept. of CSE, SUST</b></br>
+                        Account No: <b>34053918</b></br>
+                        <b>Sonali Bank Ltd, SUST Branch, Sylhet<b/>
+                    </div>
+                </div>
+            </section>
+
             <section class="quick-registration-link" align=center>
             <a href="{{route('reg.ps')}}" class="btn btn-black">Register Now</a>
             </section>
