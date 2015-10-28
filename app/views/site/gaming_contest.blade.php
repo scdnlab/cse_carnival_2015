@@ -63,6 +63,7 @@
                                 <h3>Registration Fees</h3>
                                 <p><b>Fifa 14: Registration Fee 400.00 BDT per participant</b></p>
                                 <p><b>NFS (Most Wanted): Registration Fee 400.00 BDT per participant</b></p>
+                                <p><b>CS (Counter Strike): Registration Fee 1500.00 BDT per Team</b></p>
                             </li>
                             <li>
                                 <h3>Rules for the Fifa 14</h3>
@@ -136,8 +137,45 @@
                                     <li>Gamer must switched off their cell phones, smart watches, tab or any other electronics devices.</li>
                                     <li>Food and drinks are not allowed except for chewing gums or breathe fresheners. </li>
                                 </ol>
+                                <p><b>AGAIN A REFEREE”S DECISION HAS TO BE ACCEPTED BY THE PARTICIPANTS AND NO ARGUMENT WILL BE ACCEPTABLE.</b></p>
                             </li>
-                            <p><b>AGAIN A REFEREE”S DECISION HAS TO BE ACCEPTED BY THE PARTICIPANTS AND NO ARGUMENT WILL BE ACCEPTABLE.</b></p>
+
+                            <li>
+                                <h3>Rules for the CS (Counter Strike)</h3>
+                                <ol>
+                                    <li>All the participants have to read and understand the rules.</li>
+                                    <li>Play Type: FIVE VS FIVE.</li>
+                                    <li>Players can bring their own gaming gadgets. No gadgets will be provided by the organizer.</li>
+                                    <li>The matches will be played by knocked out system.</li>
+                                    <li>Each player will get 5 minutes to set up personal gadgets with referee’s notification.</li>
+                                    <li>If the player is found to be delaying the match for non-technical reasons, the referee may declare the match forfeit.</li>
+                                    <li>If any player closes the victory or defeat screen without the replay being saved by a referee that may result in a default loss.</li>
+                                    <li>Maps: de_nuke, de_inferno, de_cbble, de_train, de_dust2. Maps will be choose by coin toss. Winning team will be choose first map, second map will be choose by losing team and last map will be choose by winning team.</li>
+                                    <li>Game Settings:
+                                        <ol>
+                                            <li>Team Decision: Coin Toss, winner pick who they start as.</li>
+                                            <li>Rounds Per Map: 11 </li>
+                                            <li>Final Match Rounds: 15</li>
+                                            <li>Team Change: Round 5</li>
+                                            <li>Time Per Round: 1.45</li>
+                                            <li>Gameplay: Single Elimination</li>
+                                            <li>Number of Round: 3</li>
+                                        </ol>
+                                    </li>
+                                    <li>If the game disconnection is deemed to be unintentional by the referee, the game will be restarted. If any or both player does not agree to a match restart, that or both player will be disqualified.</li>
+                                    <li>Unfair Play: 1. Use of any cheat program, 2. Intentional disconnection, 3. Use of any settings exceeding standard and permitted settings and 4. If the match is disrupted due to unnecessary.</li>
+                                    <li>Upon discovery of any player committing any violation regarded as unfair play, that player will be disqualified from the tournament.</li>
+                                    <li>During the course of any match, the operations staff and/or referee may determine other actions to be unfair play at any time.</li>
+                                    <li>Chatting, the player may be given a warning or lose by defaults at the referee’s sole discretions.</li>
+                                    <li>A participant has to report at the venue with respect to the schedule time table. No participant shall be allowed to participate if he/she does not report to the organizing authority within their reporting time.</li>
+                                    <li>A participant shall be reported about exact time of their match when they report.</li>
+                                    <li>If a participant is found missing before the round, then the opponent shall be awarded a walkover to the next round.</li>
+                                    <li>Gamer must switched off their cell phones, smart watches, tab or any other electronics devices.</li>
+                                    <li>Food and drinks are not allowed except for chewing gums or breathe fresheners.</li>
+
+                                </ol>
+                            </li>
+
                         </ol>
                     </div>
                 </div>
