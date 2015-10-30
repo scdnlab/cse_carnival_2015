@@ -135,7 +135,7 @@
 
 
                                                 <option>Mawlana Bhashani Science and Technology University</option>
-                                                <option>Military University of Science and Technology</option>
+                                                <option>Military Institute of Science and Technology</option>
                                                 <option>Mymensingh Engineering College</option>
                                                 <option>Manarat International University</option>
                                                 <option>Metropolitan University, Sylhet</option>
