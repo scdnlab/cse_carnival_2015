@@ -111,12 +111,14 @@
 
 
                                                 <option>Hajee Mohammad Danesh Science & Technology University</option>
+                                                <option>Hamdard University Bangladesh</option>
                                                 
 
                                                 <option>Islamic University,Kushtia</option>
                                                 <option>Islamic University of Technology</option>
                                                 <option>IBAIS University</option>
                                                 <option>Independent University, Bangladesh</option>
+                                                <option>Institute of Information Technology, University of Dhaka</option>
                                                 <option>International Islamic University, Chittagong</option>
                                                 <option>International University of Business Agriculture and Technology</option>
 

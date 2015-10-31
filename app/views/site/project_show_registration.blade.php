@@ -109,6 +109,7 @@
 
 
                                                 <option>Hajee Mohammad Danesh Science & Technology University</option>
+                                                <option>Hamdard University Bangladesh</option>
                                                 
 
                                                 <option>Islamic University,Kushtia</option>
