@@ -106,15 +106,15 @@
                             </tr>
                             
                             <tr>
-                                <td>31 October 2015</td>
+                                <td><strike>31 October 2015</strike></br>5 November 2015</td>
                                 <td>Registration Close</td> 
                             </tr>
                             <tr>
-                                <td>1 November 2015</td>
-                                <td>Selected Participants List will be Published</td> 
+                                <td><strike>1 November 2015</strike></br>6 November 2015</td>
+                                <td>Team Slot will be Published</td> 
                             </tr>
                             <tr>
-                                <td>5 November 2015</td>
+                                <td><strike>5 November 2015</strike></br>15 November 2015</td>
                                 <td>Payment Deadline</td> 
                             </tr>
                               <tr>
