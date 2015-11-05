@@ -48,7 +48,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 align="center" style='color:red'>Sorry , Registration Closed !!!</h2>
+                    <h2 align="center" style='color:red'>Oops....Registration Closed !!!</h2>
                   
                 </div>
             </div>
