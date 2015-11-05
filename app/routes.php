@@ -140,3 +140,9 @@ Route::get('/contact',function(){
 				->with('title','IPvision SUST 5th CSE Carnival 2015 ::. Contact');
 
 });
+
+Route::get('/test',function(){
+	return View::make('site.reg_end')
+				->with('title','IPvision SUST 5th CSE Carnival 2015 ::. Registraion End');
+
+});
