@@ -5,7 +5,7 @@ class ContestController extends \BaseController {
 	
 	//programming contest
 	public function pc(){
-		return View::make('site.programming_registration')
+		return View::make('site.reg_end')
 				->with('title','IPvision SUST CSE Carnival 2015 ::. Registration ::. SUST Inter University Programming Contest');
 	}
 
@@ -137,7 +137,7 @@ class ContestController extends \BaseController {
 
 	//software contest
 	public function sc(){
-		return View::make('site.software_registration')
+		return View::make('site.reg_end')
 				->with('title','IPvision SUST CSE Carnival 2015 ::. Registration ::. SUST Inter University Software Contest');
 	}
 
@@ -259,7 +259,7 @@ class ContestController extends \BaseController {
 
 	//project showcase 
 	public function ps(){
-		return View::make('site.project_show_registration')
+		return View::make('site.reg_end')
 				->with('title','IPvision SUST CSE Carnival 2015 ::. Registration ::. Project Showcasing');
 	}
 
