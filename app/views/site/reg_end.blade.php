@@ -53,11 +53,11 @@
     100% { color: black; }
 }
 .blink {
-    -webkit-animation: blink 0.5s linear infinite;
-    -moz-animation: blink 0.5s linear infinite;
-    -ms-animation: blink 0.5s linear infinite;
-    -o-animation: blink 0.5s linear infinite;
-    animation: blink 0.5s linear infinite;
+    -webkit-animation: blink 1s linear infinite;
+    -moz-animation: blink 1s linear infinite;
+    -ms-animation: blink 1s linear infinite;
+    -o-animation: blink 1s linear infinite;
+    animation: blink 1s linear infinite;
 } 
 
     </style>
