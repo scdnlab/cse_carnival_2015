@@ -65,7 +65,7 @@
                             @if($team->status == 0)
                             <td style="color:red">Pending</td>
                             @elseif($team->status == 1)
-                            <td style="color:green">Confirmed</td>
+                            <td style="color:red">Waiting for Payment</td>
                             @endif
                             <td><a href="#programmingTeam{{$team->id}}" class="btn btn-default fancybox">View Details</a></td>
                         </tr>
