@@ -8,6 +8,11 @@ class ContestController extends \BaseController {
 		return View::make('site.reg_end')
 				->with('title','IPvision SUST CSE Carnival 2015 ::. Registration ::. SUST Inter University Programming Contest');
 	}
+	
+	public function pc_b(){
+		return View::make('site.programming_registration')
+				->with('title','IPvision SUST CSE Carnival 2015 ::. Registration ::. SUST Inter University Programming Contest');
+	}
 
 	public function pc_store(){
 		$rules =[
