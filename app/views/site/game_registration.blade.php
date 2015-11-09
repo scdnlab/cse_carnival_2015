@@ -73,7 +73,7 @@
                                 </label>
                                 <label>
                                     {{ Form::checkbox('contest[]', 'fifa') }}
-                                    FIFA 14
+                                    FIFA 15
                                 </label>
                             </div>
 
