@@ -48,7 +48,7 @@
             <section class="event-section">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h2>Fifa 14 and NFS (Most Wanted)</h2>
+                        <h2>Fifa 15 and NFS (Most Wanted)</h2>
                         <ol>
                             <li>
                                 <h3>Registration</h3>
@@ -66,7 +66,7 @@
                                 <p><b>CS (Counter Strike): Registration Fee 1500.00 BDT per Team</b></p>
                             </li>
                             <li>
-                                <h3>Rules for the Fifa 14</h3>
+                                <h3>Rules for the Fifa 15</h3>
                                     <ol>
                                         <li>All the participants have to read and understand the rules.</li>
                                         <li>Play Type: One VS ONE.</li>
