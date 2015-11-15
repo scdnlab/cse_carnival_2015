@@ -116,7 +116,7 @@ Route::get('result/gamingCompetition',['as' => 'result.gc', 'uses' => 'ResultCon
 
 //programming contest
 Route::get('registration/programmingContest',['as' => 'reg.pc', 'uses' => 'ContestController@pc']);
-Route::get('registration/programmingContestB',['as' => 'reg.pc.b', 'uses' => 'ContestController@pc_b']);
+Route::get('registration/programmingContestOld',['as' => 'reg.pc.b', 'uses' => 'ContestController@pc_b']);
 Route::post('registration/programmingContest',['as' => 'reg.pc.store', 'uses' => 'ContestController@pc_store']);
 
 //software contest
